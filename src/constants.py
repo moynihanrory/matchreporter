@@ -1,35 +1,3 @@
-
-# Constants
-# Mongo
-MDB_DATABASE_NAME = 'analysis'
-MDB_PASSWORD = 'liv01p01l'
-MDB_USERNAME = 'rory'
-MDB_IMPORT_FILE___TXT = 'import_file_{}.txt'
-MDB_IMPORT_FILE_SOURCE_TXT = 'TEXT'
-MDB_DATETIME_FORMAT = '%Y-%m-%d-%H-%M-%S'
-MDB_DATE_FORMAT = '%Y-%m-%d'
-MDB_MLAB_URL = "mongodb://ds119374.mlab.com:19374"
-MDB_ORIGINAL_DOC_NAME = 'gaaMatchImportData'
-MDB_CLEANED_DOC_NAME = 'gaaMatchCleanedData'
-MDB_CLEANED_DATA_CONTENTS_COLUMN_NAME = 'contents'
-MDB_SPORTSCODE_DOC_NAME = 'sportsCodeImportData'
-MDB_TRANSFORMED_DATA_NAME = 'transformedData'
-MDB_TRANSFORM_MAPPING_NAME = 'mappingData'
-MDB_TRANSFORM_TABLENAME_TEMPLATE = 'transformedData_{}'
-
-# SQL Database constants
-DB_FILENAME = 'GAAMatch.sqlite'
-DB_TABLENAME = 'zstats'
-DB_C1 = 'zstats1'
-DB_C2 = 'zstats2'
-DB_C3 = 'ztype'
-DB_C4 = 'zperiod'
-DB_C5 = 'zplayer'
-DB_C6 = 'zteam'
-DB_C7 = 'ztimegone'
-DB_PREPARED_QUERY = 'SELECT {c1},{c2},{c3},{c4},{c5},{c6},{c7} FROM {t}'.\
-    format(c1=DB_C1,c2=DB_C2,c3=DB_C3,c4=DB_C4,c5=DB_C5,c6=DB_C6,c7=DB_C7,t=DB_TABLENAME)
-
 # File constants
 FILE_NAME = 'stats.txt'
 FILE_REL_OUTPUT_DIRECTORY = './match/'
@@ -52,6 +20,17 @@ TIDY_PROCESS = False
 TIDY_EVENT_FROM = ['play', 'free', 'penalty', '45/65', 'sideline', 'card', 'won', 'lost', 'conceded']
 TIDY_STR_MINS = 'mins'
 TIDY_FULL_TIME = 'Full time'
+#sportscode
+TIDY_SCX_CODE = 'code'
+TIDY_SCX_OBS_1 = 'file'
+TIDY_SCX_OBS_2 = 'ALL_INSTANCES'
+TIDY_SCX_OBS_3 = 'instance'
+TIDY_SCX_START = 'start'
+TIDY_SCX_END = 'end'
+TIDY_SCX_UNDERSCORE = '_'
+TIDY_SCX_OBS_TEAM_1 = 'GAL'
+TIDY_SCX_OBS_TEAM_2 = 'OPP'
+TIDY_SCX_OBS_HT = 'HT'
 
 FORMAT_ROW_PLAYER = 'player'
 FORMAT_ROW_ACTION = 'kpi'
@@ -84,3 +63,4 @@ EX_SECTORS_SHEET_NAME = 'Sectors'
 EX_HALVES_SHEET_NAME = 'Halves'
 EX_MATCH_SHEET_NAME = 'Match'
 EX_KPI_SHEET_NAME = 'KPIs'
+EX_OUTPUT_REPORT_FILE_SHEET = '{}_{}'

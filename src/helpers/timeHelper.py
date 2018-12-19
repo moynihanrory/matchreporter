@@ -6,59 +6,36 @@ def removePrefix(str, prefix):
     else:
         return str
 
-
 def parseInt(s, stripPrefix=False):
     try:
-
         if (stripPrefix):
             return int(eval(str(removePrefix(s, src.constants.TIME_HELPER_STR_ZERO))))
         else:
             return int(eval(str(s)))
     except:
-        return
-
+        return 0
 
 def getTimeBucket(time, half):
-    colonIndex = time.find(src.constants.TIME_HELPER_STR_COLON)
+    halfInt = parseInt(half)
 
-    if (colonIndex <= 0): #android format
-        bucketString = time[:colonIndex]
+    minString = time
 
-        if (bucketString == src.constants.TIME_HELPER_STR_ZERO):
-            bucketInt = src.constants.TIME_HELPER_INT_ZERO
+    minInt = parseInt(minString)
+
+    x = divmod(minInt, 10)
+    sector = x[0]
+
+    if halfInt == 1:
+        if sector > 2:
+            bucketInt = 2
         else:
-            bucketInt = parseInt(bucketString, True)
-
-        if (half == src.constants.TIME_HELPER_INT_ONE):
-            return bucketInt
+            bucketInt = sector
+    else:
+        if sector > 5:
+            bucketInt = 5
         else:
-            return bucketInt + src.constants.TIME_HELPER_INT_SECTOR_PER_HALF
-    else: # ios format
-        bucketString = time[:colonIndex]
+            bucketInt = sector
 
-        halfInt = parseInt(half)
+    return bucketInt
 
-        bucketInt = parseInt(bucketString)
-
-        # int must be 0 5
-        if (bucketInt < 10):
-            bucketInt = 0
-
-            if (halfInt == src.constants.TIME_HELPER_INT_ONE):
-                return bucketInt
-            else:
-                return bucketInt + src.constants.TIME_HELPER_INT_SECTOR_PER_HALF
-        else:
-            x = divmod(bucketInt, 10)
-
-            if (halfInt == src.constants.TIME_HELPER_INT_ONE):
-                if (x[0] > src.constants.TIME_HELPER_INT_TWO):
-                    return src.constants.TIME_HELPER_INT_TWO
-                else:
-                    return x[0]
-            else:
-                if (x[0] > src.constants.TIME_HELPER_INT_TWO):
-                    return src.constants.TIME_HELPER_INT_SECTOR_LAST_POS
-                else:
-                    return x[0] + src.constants.TIME_HELPER_INT_SECTOR_PER_HALF
 

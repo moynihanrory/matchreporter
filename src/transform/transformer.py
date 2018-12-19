@@ -1,10 +1,18 @@
-
-from abc import abstractmethod
+import pandas as pd
+from constants import TX_KPI_COLUMN_NAME
 
 class Transformer(object):
     def __init__(self, source):
         self.source = source
 
-    @abstractmethod
     def transform(self, data):
-        return NotImplemented
+        if (data is None):
+            return
+
+        transformedDataFrame = pd.DataFrame(data)
+
+        transformedDataFrame[TX_KPI_COLUMN_NAME] = transformedDataFrame[TX_KPI_COLUMN_NAME]
+
+        self.transformedData = transformedDataFrame
+
+        return self.transformedData

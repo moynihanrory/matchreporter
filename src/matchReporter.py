@@ -1,95 +1,53 @@
 import sys
 import logging
 import argparse
-
-import reportBuilderFactory
-import transformerFactory
-import mongoManager
-import collectorFactory
-import sources
-import analyzerFactory
+from matchReport import Report
+from typeFactory import TypeFactory
+from modes import MODES
 
 def parseCommandLine():
     parser = argparse.ArgumentParser()
-    importAppOutputGroup = parser.add_mutually_exclusive_group()
-    importAppOutputGroup.add_argument("-f", "--importFile", help="The full path and filename", action="store_true")
-    importAppOutputGroup.add_argument("-x", "--xml", help="The full path and filename", action="store_true")
-    importAppOutputGroup.add_argument("-oid", "--objectId", help="The OID to retrieve and transform", action="store_true")
-    parser.add_argument("fileOrId", action="store")
-    parser.add_argument("-outputDir", action="store")
-    args = parser.parse_args()
-    return args
 
+    parser.add_argument("-g", help="The full path and filename of export from GAAMatch")
+    parser.add_argument("-x", help="The full path and filename of the SportsCode XML")
+    parser.add_argument("-r", help="The report output file name and location")
+
+    args = parser.parse_args()
+
+    return args
 
 def main(argv):
     args = parseCommandLine()
 
-    collector = collectorFactory.getCollectorForImportSource(sources.getSourceFromArgs(args))
+    objectFactory = TypeFactory(args)
 
-    cleaned = collector.cleanAndImportData(args.fileOrId)
+    analysisList = []
 
-    transformer = transformerFactory.getTransformerForImportSource(sources.getSourceFromArgs(args))
+    for mode in MODES:
+        objectFactory.setOperatingMode(mode)
 
-    transformedData = transformer.transform(cleaned)
+        collector = objectFactory.getCollector()
 
-    analyiser = analyzerFactory.getAnalyzerForImportSource(sources.getSourceFromArgs(args))
+        if collector is None:
+            continue
 
-    analysis = analyiser.analyze(transformedData)
+        cleaned = collector.cleanAndImportData()
 
-    report = reportBuilderFactory.getReportBuilderForImportSource(sources.getSourceFromArgs(args))
+        transformer = objectFactory.getTransformer()
 
-    report.generate(analysis, transformer.mapping, args.outputDir)
+        transformedData = transformer.transform(cleaned)
 
+        analyiser = objectFactory.getAnalyzer()
 
+        analysis = analyiser.analyze(transformedData)
+
+        analysisList.append(analysis)
+
+    report = Report(args.r)
+
+    report.generate(analysisList)
 
 if __name__ == "__main__":
     logging.basicConfig(stream=sys.stderr, level=logging.INFO)
 
     main(sys.argv[1:])
-
-
-
-def generateAndPersist(argv):
-    args = parseCommandLine()
-
-    collector = collectorFactory.getCollectorForImportSource(sources.getSourceFromArgs(args))
-
-    cleaned = collector.cleanAndImportData(args.fileOrId)
-
-    cleanedDataOid = mongoManager.storeGaaMatchImportAndCleanedData(collector.getImportData(), cleaned)
-
-    if cleanedDataOid is None:
-        return  # error
-
-    # data has been previously collected and ready for transformation
-    if args.xml is False and (args.objectId or cleaned):
-        # collect data
-        cleanedData = collector.getCleanedDataById(cleanedDataOid)
-
-        if cleanedData == None:
-            return
-
-        transformer = transformerFactory.getTransformerForImportSource(sources.getSourceFromArgs(args))
-
-        transformedData = transformer.transform(cleanedData)
-
-        transformedDataOid = mongoManager.storeMappingAndTransform(cleanedDataOid, transformedData,
-                                                                   transformer.mapping)
-
-    # now we want to perform analysis
-    # ﻿ObjectId("5c06b38ec9799f177e410d43")
-    if transformedData is not None:  # transformedDataOid is not None or
-        transformedData = transformer.getTransformedDataById(transformedDataOid)
-
-        if transformedData is None:
-            return
-
-        analyiser = analyzerFactory.getAnalyzerForImportSource(sources.getSourceFromArgs(args))
-
-        analysis = analyiser.analyze(transformedData)
-
-        report = reportBuilderFactory.getReportBuilderForImportSource(sources.getSourceFromArgs(args))
-
-        report.generate(analysis, transformer.mapping, args.outputDir)
-
-

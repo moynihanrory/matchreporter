@@ -1,7 +1,11 @@
-
+"""
+stuff
+"""
 class Analysis(object):
-    def __init__(self, teams, matchBreakdown, halvesBreakdown, sectorsBreakdown):
+    """some more"""
+    def __init__(self, teams, matchBreakdown, halvesBreakdown, sectorsBreakdown, source):
         self.teams = teams
         self.match = matchBreakdown
         self.halves = halvesBreakdown
         self.sectors = sectorsBreakdown
+        self.source = source

@@ -2,35 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c043844-442b-433b-b9dc-8583252ee692" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/analysis/analysis.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/analysis/analyzer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/analysis/analyzerFactory.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/analysis/gaaMatchAnalyiser.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/collect/cleaner.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/collect/collector.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/collect/collectorFactory.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/collect/gaaMatchCollector.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/communicate/matchReport.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/communicate/report.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/communicate/reportBuilderFactory.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/constants.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/helpers/fileHelper.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/helpers/stringBuilder.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/helpers/timeHelper.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/matchReporter.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sources.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/store/jsonBuilder.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/store/mongoManager.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/transform/gaaMatchEventsMap.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/transform/gaaMatchTransformer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/transform/transformer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/transform/transformerFactory.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/allTests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/data/stats.txt" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/unneeded.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collect/sportsCodeCleaner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collect/sportsCodeCollector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/modes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/typeFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/gal-kk-android.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/gal-wex-ios.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/analyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/analyzerFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/gaaMatchAnalyiser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collect/cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collect/gaaMatchCleaner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collect/collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collect/collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collect/collectorFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collect/gaaMatchCollector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collect/gaaMatchCollector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/communicate/matchReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/communicate/matchReport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/communicate/report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/communicate/reportBuilderFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/fileHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/fileHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/stringBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/stringBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/timeHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/timeHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matchReporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/matchReporter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sources.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/jsonBuilder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/mongoManager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transform/gaaMatchEventsMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/gaaMatchEventsMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transform/gaaMatchTransformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transform/transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/transform/transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transform/transformerFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/galway-limerick.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/galway-limerick.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/stats.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,88 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="matchReporter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/matchReporter.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/analysis/analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#208#808#0" expanded="false" />
-                <element signature="e#1632#3219#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stats.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/data/stats.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="119" column="42" lean-forward="false" selection-start-line="119" selection-start-column="42" selection-end-line="119" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gaaMatchEventsMap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transform/gaaMatchEventsMap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gaaMatchCollector.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collect/gaaMatchCollector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gaaMatchTransformer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transform/gaaMatchTransformer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="matchReport.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/communicate/matchReport.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constants.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1021">
-              <caret line="85" column="25" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transformer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transform/transformer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -141,6 +71,7 @@
       <find>FORMAT_ROW_TIME_BUCKET</find>
       <find>timeBucket</find>
       <find>saved</find>
+      <find>opp po gal</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -152,79 +83,71 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/allTests.py" />
-        <option value="$PROJECT_DIR$/src/collect/fetchFromFile.py" />
-        <option value="$PROJECT_DIR$/src/collect/fetchData.py" />
-        <option value="$PROJECT_DIR$/src/helpers/time.py" />
-        <option value="$PROJECT_DIR$/src/collect/fetchFromDatabase.py" />
-        <option value="$PROJECT_DIR$/src/helpers/jsonBuilder.py" />
-        <option value="$PROJECT_DIR$/src/store/dataManager.py" />
-        <option value="$PROJECT_DIR$/src/collect/fetchRemoteDataset.py" />
-        <option value="$PROJECT_DIR$/src/collect/fetchLocalFile.py" />
-        <option value="$PROJECT_DIR$/src/analyze/iosGaaMatchAppTags.py" />
-        <option value="$PROJECT_DIR$/src/collect/dataCleaner.py" />
-        <option value="$PROJECT_DIR$/src/collect/sources.py" />
-        <option value="$PROJECT_DIR$/src/collect/iosGaaMatchFileImporter.py" />
-        <option value="$PROJECT_DIR$/src/collect/iosGaaMatchImporter.py" />
-        <option value="$PROJECT_DIR$/src/collect/dataCollector.py" />
-        <option value="$PROJECT_DIR$/src/collect/sourceImporter.py" />
-        <option value="$PROJECT_DIR$/src/collect/dataCollectorFactory.py" />
-        <option value="$PROJECT_DIR$/src/analyze/dataTransformerFactory.py" />
-        <option value="$PROJECT_DIR$/src/analyze/dataTransformer.py" />
-        <option value="$PROJECT_DIR$/src/analyze/gaaMatchEventsMap.py" />
-        <option value="$PROJECT_DIR$/src/analyze/gaaMatchTransformer.py" />
-        <option value="$PROJECT_DIR$/src/analysis/dataAnalyzerFactory.py" />
         <option value="$PROJECT_DIR$/src/store/jsonBuilder.py" />
         <option value="$PROJECT_DIR$/src/analysis/dataAnalyzer.py" />
         <option value="$PROJECT_DIR$/src/analysis/reader.py" />
         <option value="$PROJECT_DIR$/src/analysis/matchanalysis.py" />
         <option value="$PROJECT_DIR$/src/analysis/matchAnalysis.py" />
-        <option value="$PROJECT_DIR$/src/transform/transformer.py" />
-        <option value="$PROJECT_DIR$/src/analysis/analyzer.py" />
-        <option value="$PROJECT_DIR$/src/analysis/analyzerFactory.py" />
-        <option value="$PROJECT_DIR$/src/transform/gaaMatchTransformer.py" />
-        <option value="$PROJECT_DIR$/src/communicate/report.py" />
         <option value="$PROJECT_DIR$/src/communicate/templates/matchreport.html" />
         <option value="$PROJECT_DIR$/test.ipynb" />
         <option value="$PROJECT_DIR$/test/test.py" />
-        <option value="$PROJECT_DIR$/src/analysis/analysis.py" />
-        <option value="$PROJECT_DIR$/src/analysis/gaaMatchAnalyiser.py" />
         <option value="$PROJECT_DIR$/src/communicate/reportBuilder.py" />
-        <option value="$PROJECT_DIR$/src/communicate/reportBuilderFactory.py" />
-        <option value="$PROJECT_DIR$/src/helpers/stringBuilder.py" />
         <option value="$PROJECT_DIR$/src/reportBuilder.py" />
         <option value="$PROJECT_DIR$/src/collect/fileReader.py" />
         <option value="$PROJECT_DIR$/src/collect/cleaner.py" />
-        <option value="$PROJECT_DIR$/test/data/stats.txt" />
         <option value="$PROJECT_DIR$/src/transform/gaaMatchEventsMap.py" />
         <option value="$PROJECT_DIR$/src/store/mongoManager.py" />
+        <option value="$PROJECT_DIR$/src/transform/transformerFactory.py" />
+        <option value="$PROJECT_DIR$/src/collect/sportscodeCollector.py" />
+        <option value="$PROJECT_DIR$/src/analysis/analyzerFactory.py" />
+        <option value="$PROJECT_DIR$/src/helpers/sources.py" />
+        <option value="$PROJECT_DIR$/src/collect/collectorFactory.py" />
+        <option value="$PROJECT_DIR$/src/communicate/reportBuilderFactory.py" />
+        <option value="$PROJECT_DIR$/test/data/galway-limerick.xml" />
+        <option value="$PROJECT_DIR$/src/transform/sportsCodeTransformer.py" />
+        <option value="$PROJECT_DIR$/src/analysis/sportsCodeAnalyiser.py" />
+        <option value="$PROJECT_DIR$/src/analysis/gaaMatchAnalyiser.py" />
+        <option value="$PROJECT_DIR$/src/helpers/analyzerFactory.py" />
+        <option value="$PROJECT_DIR$/src/helpers/collectorFactory.py" />
+        <option value="$PROJECT_DIR$/src/helpers/reportBuilderFactory.py" />
+        <option value="$PROJECT_DIR$/src/helpers/transformerFactory.py" />
+        <option value="$PROJECT_DIR$/src/collect/collector.py" />
+        <option value="$PROJECT_DIR$/src/analysis/analyzer.py" />
+        <option value="$PROJECT_DIR$/src/collect/gaaMatchCleaner.py" />
+        <option value="$PROJECT_DIR$/src/collect/sportsCodeCleaner.py" />
+        <option value="$PROJECT_DIR$/src/collect/sportsCodeCollector.py" />
+        <option value="$PROJECT_DIR$/src/communicate/report.py" />
+        <option value="$PROJECT_DIR$/src/helpers/fileHelper.py" />
+        <option value="$PROJECT_DIR$/src/helpers/stringBuilder.py" />
+        <option value="$PROJECT_DIR$/src/helpers/timeHelper.py" />
+        <option value="$PROJECT_DIR$/src/transform/gaaMatchTransformer.py" />
+        <option value="$PROJECT_DIR$/src/transform/transformer.py" />
+        <option value="$PROJECT_DIR$/src/unneeded.py" />
         <option value="$PROJECT_DIR$/src/constants.py" />
+        <option value="$PROJECT_DIR$/src/helpers/modes.py" />
+        <option value="$PROJECT_DIR$/src/helpers/factories.py" />
         <option value="$PROJECT_DIR$/src/communicate/matchReport.py" />
+        <option value="$PROJECT_DIR$/test/data/gal-kk-android.txt" />
+        <option value="$PROJECT_DIR$/test/data/gal-wex-ios.txt" />
+        <option value="$PROJECT_DIR$/test/data/stats.txt" />
+        <option value="$PROJECT_DIR$/src/collect/gaaMatchCollector.py" />
+        <option value="$PROJECT_DIR$/src/helpers/typeFactory.py" />
         <option value="$PROJECT_DIR$/src/matchReporter.py" />
+        <option value="$PROJECT_DIR$/src/analysis/analysis.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="764" />
+    <option name="x" value="1097" />
     <option name="y" value="23" />
-    <option name="width" value="1742" />
+    <option name="width" value="1361" />
     <option name="height" value="1366" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -268,12 +191,6 @@
               <item name="match-reporter" type="b2602c69:ProjectViewProjectNode" />
               <item name="match-reporter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="match-reporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="match-reporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="transform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,18 +212,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/snippets" />
       <recent name="$PROJECT_DIR$/src/helpers" />
+      <recent name="$PROJECT_DIR$/src/collect" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/store" />
     </key>
@@ -325,6 +243,7 @@
   </component>
   <component name="RunManager" selected="Python.reportBuilder (GMA)">
     <configuration name="reportBuilder (GMA)" type="PythonConfigurationType" factoryName="Python">
+      <module name="match-reporter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -335,59 +254,39 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="match-reporter" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/matchReporter.py" />
-      <option name="PARAMETERS" value="-f &quot;$PROJECT_DIR$/test/data/stats.txt&quot; -outputDir &quot;$USER_HOME$/Desktop/match-reports&quot;" />
+      <option name="PARAMETERS" value="-g &quot;$PROJECT_DIR$/test/data/stats.txt&quot; -x &quot;$PROJECT_DIR$/test/data/galway-limerick.xml&quot; -r &quot;$USER_HOME$/Desktop/match-reports&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="reportBuilder (OID)" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/anaconda3/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="match-reporter" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/matchReporter.py" />
-      <option name="PARAMETERS" value="-oid 5c011664c9799f4f3ca09a42" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="allTests" type="tests" factoryName="py.test" temporary="true">
+      <module name="match-reporter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="match-reporter" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.allTests&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.reportBuilder (OID)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.reportBuilder (GMA)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.allTests" />
+    <list>
+      <item itemvalue="Python.reportBuilder (GMA)" />
+      <item itemvalue="Python tests.allTests" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.allTests" />
+      <list>
+        <item itemvalue="Python tests.allTests" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -426,33 +325,30 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="764" y="23" width="1742" height="1366" extended-state="0" />
-    <editor active="true" />
+    <frame x="1097" y="23" width="1361" height="1366" extended-state="0" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22738002" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24282435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22423288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32600453" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32933652" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22701839" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31254995" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3296617" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32933652" />
+      <window_info active="true" anchor="bottom" id="Pylint" order="12" visible="true" weight="0.32853717" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -463,425 +359,403 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="122" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>minInt==None</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>time=='01'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>time=='40'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>time=='30'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>time=='20'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>time=='10'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>minInt == None</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>half==2</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>print(frame)</expression-string>
+        <expression-string>len(minString)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>mapping.keys()</expression-string>
+        <expression-string>int(t[0]) * 60 + int(t[1]) * 1 + int(float(t[2])) / 60</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>print(data)</expression-string>
+        <expression-string>timeString</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>line[0].lower()</expression-string>
+        <expression-string>timeString = timeString[2:]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>line[0].to_lower()</expression-string>
+        <expression-string>time[:colonIndex]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>print(analysis.match)</expression-string>
+        <expression-string>time[2:]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>teams[1]</expression-string>
+        <expression-string>time.split('0:')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>teams[0]</expression-string>
+        <expression-string>datetime.strftime(time,'%M-%S')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>teams</expression-string>
+        <expression-string>time.format('%M-%S')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///anaconda3/lib/python3.6/_bootlocale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collect/cleaner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/data/stats.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/timeHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matchReporter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/allTests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.6/_bootlocale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/pymongo/uri_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/pymongo/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collect/fetchRemoteDataset.py" />
     <entry file="file:///anaconda3/lib/python3.6/site-packages/pymongo/collection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
-          <caret line="3316" column="0" lean-forward="false" selection-start-line="3316" selection-start-column="0" selection-end-line="3316" selection-end-column="0" />
+          <caret line="3316" selection-start-line="3316" selection-end-line="3316" />
         </state>
       </provider>
     </entry>
     <entry file="file:///anaconda3/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
-          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
         </state>
       </provider>
     </entry>
     <entry file="file:///anaconda3/lib/python3.6/argparse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
-          <caret line="1570" column="0" lean-forward="false" selection-start-line="1570" selection-start-column="0" selection-end-line="1570" selection-end-column="0" />
+          <caret line="1570" selection-start-line="1570" selection-end-line="1570" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file:///anaconda3/lib/python3.6/site-packages/pymongo/message.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="678" column="0" lean-forward="false" selection-start-line="678" selection-start-column="0" selection-end-line="678" selection-end-column="0" />
+          <caret line="678" selection-start-line="678" selection-end-line="678" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/analysis/matchAnalysis.py" />
-    <entry file="file://$PROJECT_DIR$/src/analysis/analyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/communicate/templates/matchreport.html" />
     <entry file="file://$PROJECT_DIR$/src/reportBuilder.ipynb" />
     <entry file="file://$PROJECT_DIR$/test.ipynb" />
-    <entry file="file://$PROJECT_DIR$/src/analysis/analyzerFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/timeHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/jsonBuilder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/jsonBuilder.py" />
     <entry file="file:///anaconda3/lib/python3.6/site-packages/matplotlib/backends/backend_macosx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py">
+    <entry file="file://$PROJECT_DIR$/test/test.py" />
+    <entry file="file://$PROJECT_DIR$/src/groups-all.csv" />
+    <entry file="file://$PROJECT_DIR$/src/groups-half.csv" />
+    <entry file="file://$PROJECT_DIR$/src/groups-sector.csv" />
+    <entry file="file://$PROJECT_DIR$/src/groups-t-h-s.csv" />
+    <entry file="file://$PROJECT_DIR$/src/store/mongoManager.py" />
+    <entry file="file://$PROJECT_DIR$/src/helpers/sources.py" />
+    <entry file="file://$PROJECT_DIR$/test/data/galway-limerick.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="358">
+          <caret line="617" column="11" selection-start-line="617" selection-start-column="11" selection-end-line="617" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/groups-all.csv">
+    <entry file="file://$USER_HOME$/PycharmProjects/app-output-converter/excelwriter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/groups-half.csv">
+    <entry file="file://$PROJECT_DIR$/snippets/gaaMatchEventsMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groups-sector.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groups-t-h-s.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transform/transformerFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/communicate/matchReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/analysis/analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/communicate/reportBuilderFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/stringBuilder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="810">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/analysis/gaaMatchAnalyiser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/analysis/sportsCodeAnalyiser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="43" />
           <folding>
-            <element signature="e#0#30#0" expanded="false" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/transformerFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/analyzerFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/collectorFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/reportBuilderFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/communicate/report.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transform/gaaMatchTransformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transform/sportsCodeTransformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets/unneeded.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/factories.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/communicate/matchReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transform/transformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/analysis/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/modes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/timeHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/gal-kk-android.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/stats.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/gal-wex-ios.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/typeFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers/fileHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sources.py">
+    <entry file="file://$PROJECT_DIR$/src/matchReporter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collect/collector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collect/collectorFactory.py">
+    <entry file="file://$PROJECT_DIR$/src/collect/sportsCodeCollector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collect/cleaner.py">
+    <entry file="file://$PROJECT_DIR$/src/collect/gaaMatchCollector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collect/gaaMatchCleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="107" column="35" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/mongoManager.py">
+    <entry file="file://$PROJECT_DIR$/src/collect/sportsCodeCleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1785">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/communicate/report.py">
+    <entry file="file://$PROJECT_DIR$/src/helpers/stringBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transform/transformer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/data/stats.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="119" column="42" lean-forward="false" selection-start-line="119" selection-start-column="42" selection-end-line="119" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transform/gaaMatchEventsMap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collect/gaaMatchCollector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transform/gaaMatchTransformer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
-          <caret line="85" column="25" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/communicate/matchReport.py">
+    <entry file="file://$PROJECT_DIR$/src/analysis/analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matchReporter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#208#808#0" expanded="false" />
-            <element signature="e#1632#3219#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

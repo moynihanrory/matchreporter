@@ -2,7 +2,6 @@ import src.constants
 import src.helpers.timeHelper
 from constants import TIDY_FULL_TIME
 
-
 def tidyData(data):
     splitLines = []
 
@@ -20,7 +19,6 @@ def tidyData(data):
 
     return splitLines
 
-
 def skipOrProcessLine(line, index):
     if index < src.constants.TIDY_SI: return src.constants.TIDY_SKIP
     if line == '': return src.constants.TIDY_SKIP
@@ -35,7 +33,6 @@ def skipOrProcessLine(line, index):
     if line.startswith(src.constants.TIDY_LS9): return src.constants.TIDY_SKIP
 
     return src.constants.TIDY_PROCESS
-
 
 def formatData(data):
     formattedLines = []
@@ -55,7 +52,6 @@ def formatData(data):
 
     return formattedLines
 
-
 def formatLine(splitLine, splitLineLength):
     # update the half
     half = extractHalf(splitLine)
@@ -72,7 +68,9 @@ def formatLine(splitLine, splitLineLength):
         stopIndex = splitLineLength - 1
 
     playerStringStart = 0
+
     event, playerStringStart = extractEvent(playerStringStart, splitLine, stopIndex)
+
     player = extractPlayer(playerNumber, playerStringStart, splitLine, stopIndex)
 
     row = {src.constants.FORMAT_ROW_TIME: time,
@@ -84,50 +82,59 @@ def formatLine(splitLine, splitLineLength):
 
     return row
 
-
 def extractPlayer(playerNumber, playerStringStart, splitLine, stopIndex):
     if (playerNumber == 0 and (playerStringStart > 0) and (playerStringStart < len(splitLine))):
         player = splitLine[playerStringStart]
+
         for i in range(playerStringStart + 1, stopIndex):
             player = player + ' ' + splitLine[i]
     else:
         if playerNumber != 0:
             player = str(playerNumber)
-            return player
 
+            return player
 
 def extractEvent(playerStringStart, splitLine, stopIndex):
     event = splitLine[4]
+
     for i in range(5, stopIndex):
         event = event + ' ' + splitLine[i]
+
         if (splitLine[i] in src.constants.TIDY_EVENT_FROM):
             playerStringStart = i + 1
-            break
-    return event, playerStringStart
 
+            break
+
+    return event, playerStringStart
 
 def extractPlayerNumber(splitLine, splitLineLength):
     playerNumber = src.helpers.timeHelper.parseInt(splitLine[splitLineLength - 1])
-    return playerNumber
 
+    return playerNumber
 
 def extractTeam(splitLine):
     team = splitLine[3]
     return team
 
-
 def extractSector(half, time):
-    timeBucket = src.helpers.timeHelper.getTimeBucket(time, half)
-    return timeBucket
+    if len(time) == 2 and time.startswith('0'):
+        timeInt = src.helpers.timeHelper.parseInt(time, stripPrefix=True)
+    else:
+        timeInt = src.helpers.timeHelper.parseInt(time, stripPrefix=False)
 
+    timeBucket = src.helpers.timeHelper.getTimeBucket(str(timeInt), half)
+
+    return timeBucket
 
 def extractTime(splitLine):
     time = splitLine[0].strip(src.constants.TIDY_STR_MINS)
-    return time
 
+    return time
 
 def extractHalf(splitLine):
     half = 1
+
     if splitLine[1].startswith(src.constants.TIDY_LS10):
         half = 2
+
     return half

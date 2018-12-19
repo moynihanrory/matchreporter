@@ -1,12 +1,11 @@
-from datetime import datetime, date
-
-from constants import MDB_IMPORT_FILE_SOURCE_TXT, MDB_IMPORT_FILE___TXT, MDB_DATETIME_FORMAT, EX_OUTPUT_REPORT_FILE, \
-    MDB_DATE_FORMAT
+from datetime import datetime
+from constants import EX_OUTPUT_REPORT_FILE, \
+    EX_OUTPUT_REPORT_FILE_SHEET
+from snippets.unneeded import MDB_IMPORT_FILE___TXT, MDB_IMPORT_FILE_SOURCE_TXT, MDB_DATETIME_FORMAT, MDB_DATE_FORMAT
 
 
 def createSource():
     return MDB_IMPORT_FILE_SOURCE_TXT
-
 
 def createImportTxtFilename():
     datestring = datetime.strftime(datetime.now(), MDB_DATETIME_FORMAT)
@@ -25,7 +24,6 @@ def createOutputExcelFilename(teams):
 
     return filename
 
-
 def getDateTimeString():
     datestring = datetime.strftime(datetime.now(), MDB_DATETIME_FORMAT)
 
@@ -35,3 +33,8 @@ def getDateString():
     datestring = datetime.strftime(datetime.now(), MDB_DATE_FORMAT)
 
     return datestring
+
+def getSheetName(prefix, postfix):
+    sheetName = EX_OUTPUT_REPORT_FILE_SHEET.format(prefix, postfix)
+
+    return sheetName
