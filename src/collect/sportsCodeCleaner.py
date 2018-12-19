@@ -10,7 +10,7 @@ def tidyData(data):
 
     observations = data[TIDY_SCX_OBS_1][TIDY_SCX_OBS_2][TIDY_SCX_OBS_3]
 
-    for index, row in enumerate(observations):
+    for row in observations:
         tidiedRows.append(row)
 
     return tidiedRows
@@ -22,7 +22,7 @@ def formatData(data):
 
     lastRow = None
 
-    for index, row in enumerate(data):
+    for row in data:
 
         row, dropRow = formatRow(row, lastRow)
 
@@ -37,7 +37,7 @@ def formatData(data):
 def formatRow(row, lastRow):
     # update the half
     time = extractTime(row)
-    half = extractHalf(time, row, lastRow)
+    half = extractHalf(row, lastRow)
     sector = extractSector(half, time)
     team = extractTeam(row)
 
@@ -66,7 +66,7 @@ def extractTime(row):
     return timeElapsed
 
 
-def extractHalf(time, row, lastRow):
+def extractHalf(row, lastRow):
     if lastRow is None:
         return 1
 

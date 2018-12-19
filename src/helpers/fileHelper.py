@@ -1,4 +1,3 @@
-import json
 import os
 import xmltodict
 from constants import FILE_REL_OUTPUT_DIRECTORY

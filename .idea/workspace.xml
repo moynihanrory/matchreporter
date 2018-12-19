@@ -2,40 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c043844-442b-433b-b9dc-8583252ee692" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/unneeded.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collect/sportsCodeCleaner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collect/sportsCodeCollector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/modes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/typeFactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/gal-kk-android.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/gal-wex-ios.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/analysis/analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/analyzer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/analyzerFactory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/gaaMatchAnalyiser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collect/cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collect/gaaMatchCleaner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collect/collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collect/collector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collect/collectorFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collect/gaaMatchCleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collect/gaaMatchCleaner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collect/gaaMatchCollector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collect/gaaMatchCollector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/communicate/matchReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/communicate/matchReport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/communicate/report.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/communicate/reportBuilderFactory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collect/sportsCodeCleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collect/sportsCodeCleaner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collect/sportsCodeCollector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collect/sportsCodeCollector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/fileHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/fileHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/stringBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/stringBuilder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/timeHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/timeHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matchReporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/matchReporter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sources.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/jsonBuilder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/mongoManager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transform/gaaMatchEventsMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/gaaMatchEventsMap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transform/gaaMatchTransformer.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transform/transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/transform/transformer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transform/transformerFactory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/galway-limerick.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/galway-limerick.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/stats.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +19,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/analysis/analysis.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collect/sportsCodeCollector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="60">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/communicate/matchReport.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/helpers/fileHelper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#1#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/helpers/modes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/helpers/stringBuilder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/helpers/timeHelper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/helpers/typeFactory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/transform/transformer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/matchReporter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,17 +177,10 @@
         <option value="$PROJECT_DIR$/src/helpers/collectorFactory.py" />
         <option value="$PROJECT_DIR$/src/helpers/reportBuilderFactory.py" />
         <option value="$PROJECT_DIR$/src/helpers/transformerFactory.py" />
-        <option value="$PROJECT_DIR$/src/collect/collector.py" />
-        <option value="$PROJECT_DIR$/src/analysis/analyzer.py" />
-        <option value="$PROJECT_DIR$/src/collect/gaaMatchCleaner.py" />
-        <option value="$PROJECT_DIR$/src/collect/sportsCodeCleaner.py" />
-        <option value="$PROJECT_DIR$/src/collect/sportsCodeCollector.py" />
         <option value="$PROJECT_DIR$/src/communicate/report.py" />
-        <option value="$PROJECT_DIR$/src/helpers/fileHelper.py" />
         <option value="$PROJECT_DIR$/src/helpers/stringBuilder.py" />
         <option value="$PROJECT_DIR$/src/helpers/timeHelper.py" />
         <option value="$PROJECT_DIR$/src/transform/gaaMatchTransformer.py" />
-        <option value="$PROJECT_DIR$/src/transform/transformer.py" />
         <option value="$PROJECT_DIR$/src/unneeded.py" />
         <option value="$PROJECT_DIR$/src/constants.py" />
         <option value="$PROJECT_DIR$/src/helpers/modes.py" />
@@ -130,17 +189,24 @@
         <option value="$PROJECT_DIR$/test/data/gal-kk-android.txt" />
         <option value="$PROJECT_DIR$/test/data/gal-wex-ios.txt" />
         <option value="$PROJECT_DIR$/test/data/stats.txt" />
-        <option value="$PROJECT_DIR$/src/collect/gaaMatchCollector.py" />
         <option value="$PROJECT_DIR$/src/helpers/typeFactory.py" />
-        <option value="$PROJECT_DIR$/src/matchReporter.py" />
         <option value="$PROJECT_DIR$/src/analysis/analysis.py" />
+        <option value="$PROJECT_DIR$/src/collect/collector.py" />
+        <option value="$PROJECT_DIR$/src/analysis/analyzer.py" />
+        <option value="$PROJECT_DIR$/src/collect/gaaMatchCleaner.py" />
+        <option value="$PROJECT_DIR$/src/collect/gaaMatchCollector.py" />
+        <option value="$PROJECT_DIR$/src/collect/sportsCodeCleaner.py" />
+        <option value="$PROJECT_DIR$/src/collect/sportsCodeCollector.py" />
+        <option value="$PROJECT_DIR$/src/helpers/fileHelper.py" />
+        <option value="$PROJECT_DIR$/src/transform/transformer.py" />
+        <option value="$PROJECT_DIR$/src/matchReporter.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1097" />
+    <option name="x" value="908" />
     <option name="y" value="23" />
-    <option name="width" value="1361" />
+    <option name="width" value="1550" />
     <option name="height" value="1366" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -151,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,24 +262,12 @@
             </path>
             <path>
               <item name="match-reporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="match-reporter" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="match-reporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="match-reporter" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="match-reporter" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,9 +380,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1097" y="23" width="1361" height="1366" extended-state="0" />
+    <frame x="908" y="23" width="1550" height="1366" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32600453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28912467" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -528,124 +584,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/analysis/gaaMatchAnalyiser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/analysis/sportsCodeAnalyiser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/transformerFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/analyzerFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/collectorFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/reportBuilderFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/communicate/report.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transform/gaaMatchTransformer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transform/sportsCodeTransformer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <element signature="e#1#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/analysis/gaaMatchAnalyiser.py" />
+    <entry file="file://$PROJECT_DIR$/src/analysis/sportsCodeAnalyiser.py" />
+    <entry file="file://$PROJECT_DIR$/src/helpers/transformerFactory.py" />
+    <entry file="file://$PROJECT_DIR$/src/helpers/analyzerFactory.py" />
+    <entry file="file://$PROJECT_DIR$/src/helpers/collectorFactory.py" />
+    <entry file="file://$PROJECT_DIR$/src/helpers/reportBuilderFactory.py" />
+    <entry file="file://$PROJECT_DIR$/src/communicate/report.py" />
+    <entry file="file://$PROJECT_DIR$/src/transform/gaaMatchTransformer.py" />
+    <entry file="file://$PROJECT_DIR$/src/transform/sportsCodeTransformer.py" />
     <entry file="file://$PROJECT_DIR$/snippets/unneeded.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/factories.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/communicate/matchReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transform/transformer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/analysis/analyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/modes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/timeHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/factories.py" />
     <entry file="file://$PROJECT_DIR$/test/data/gal-kk-android.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="802">
@@ -667,74 +618,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/typeFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/fileHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matchReporter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/collect/collector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="405">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collect/sportsCodeCollector.py">
+    <entry file="file://$PROJECT_DIR$/src/analysis/analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collect/gaaMatchCollector.py">
+    <entry file="file://$PROJECT_DIR$/src/analysis/analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="340">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collect/gaaMatchCleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="107" column="35" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
+        <state relative-caret-position="838">
+          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/collect/gaaMatchCollector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/collect/sportsCodeCleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="263">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collect/sportsCodeCollector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/communicate/matchReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/fileHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/modes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -745,17 +712,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants.py">
+    <entry file="file://$PROJECT_DIR$/src/helpers/timeHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/analysis/analysis.py">
+    <entry file="file://$PROJECT_DIR$/src/helpers/typeFactory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="600">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transform/transformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/matchReporter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

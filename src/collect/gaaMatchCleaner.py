@@ -20,24 +20,37 @@ def tidyData(data):
     return splitLines
 
 def skipOrProcessLine(line, index):
-    if index < src.constants.TIDY_SI: return src.constants.TIDY_SKIP
-    if line == '': return src.constants.TIDY_SKIP
-    if line.startswith(src.constants.TIDY_LS1): return src.constants.TIDY_SKIP
-    if line.startswith(src.constants.TIDY_LS2): return src.constants.TIDY_SKIP
-    if line.startswith(src.constants.TIDY_LS3): return src.constants.TIDY_SKIP
-    if line.startswith(src.constants.TIDY_LS4): return src.constants.TIDY_SKIP
-    if line.startswith(src.constants.TIDY_LS5): return src.constants.TIDY_SKIP
-    if line.startswith(src.constants.TIDY_LS6): return src.constants.TIDY_SKIP
-    if line.startswith(src.constants.TIDY_LS7): return src.constants.TIDY_SKIP
-    if line.startswith(src.constants.TIDY_LS8): return src.constants.TIDY_SKIP
-    if line.startswith(src.constants.TIDY_LS9): return src.constants.TIDY_SKIP
+    if index < src.constants.TIDY_SI:
+        return src.constants.TIDY_SKIP
+
+    if line == '':
+        return src.constants.TIDY_SKIP
+
+    if line.startswith(src.constants.TIDY_LS1):
+        return src.constants.TIDY_SKIP
+    elif line.startswith(src.constants.TIDY_LS2):
+        return src.constants.TIDY_SKIP
+    elif line.startswith(src.constants.TIDY_LS3):
+        return src.constants.TIDY_SKIP
+    elif line.startswith(src.constants.TIDY_LS4):
+        return src.constants.TIDY_SKIP
+    elif line.startswith(src.constants.TIDY_LS5):
+        return src.constants.TIDY_SKIP
+    elif line.startswith(src.constants.TIDY_LS6):
+        return src.constants.TIDY_SKIP
+    elif line.startswith(src.constants.TIDY_LS7):
+        return src.constants.TIDY_SKIP
+    elif line.startswith(src.constants.TIDY_LS8):
+        return src.constants.TIDY_SKIP
+    elif line.startswith(src.constants.TIDY_LS9):
+        return src.constants.TIDY_SKIP
 
     return src.constants.TIDY_PROCESS
 
 def formatData(data):
     formattedLines = []
 
-    for index, line in enumerate(data):
+    for line in data:
         splitLineLength = len(line)
 
         if (splitLineLength == 0):
@@ -93,6 +106,8 @@ def extractPlayer(playerNumber, playerStringStart, splitLine, stopIndex):
             player = str(playerNumber)
 
             return player
+
+    return None
 
 def extractEvent(playerStringStart, splitLine, stopIndex):
     event = splitLine[4]

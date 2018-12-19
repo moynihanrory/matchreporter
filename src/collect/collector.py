@@ -4,9 +4,12 @@ class DataCollector(object):
     def __init__(self, source, inputLocation):
         self.source = source
         self.location = inputLocation
+        self.rawData = None
+        self.cleanedData = None
+        self.tidiedData = None
 
     @abstractmethod
-    def read(self, source):
+    def read(self):
         return NotImplemented
 
     @abstractmethod
