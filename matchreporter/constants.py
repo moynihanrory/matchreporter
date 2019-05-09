@@ -1,0 +1,32 @@
+
+FIRST_HALF_START = '1st Half Start'
+FIRST_HALF_END = 'Half time score'
+SECOND_HALF_START = '2nd half start'
+SECOND_HALF_END = 'Full time score'
+LOCATION_TAG = 'Posn:'
+EVENT_ENDING = ['play', 'free', 'penalty', '45/65', 'sideline', 'card', 'won', 'lost', 'conceded']
+STRING_ZERO = '0'
+
+FORMAT_ROW_PLAYER = 'player'
+FORMAT_ROW_EVENT = 'kpi'
+FORMAT_ROW_TEAM = 'team'
+FORMAT_ROW_HALF = 'half'
+FORMAT_ROW_SECTOR = 'sector'
+FORMAT_ROW_TIME = 'time'
+FORMAT_ROW_LOCATION = 'location'
+
+EX_SECTORS_SHEET_NAME = 'Sectors'
+EX_HALVES_SHEET_NAME = 'Halves'
+EX_MATCH_SHEET_NAME = 'Match'
+EX_PLAYERS_SHEET_NAME_1 = 'Players1'
+EX_PLAYERS_SHEET_NAME_2 = 'Players2'
+EX_LOCATIONS_SHEET_NAME_1 = 'Location1'
+EX_LOCATIONS_SHEET_NAME_2 = 'Location2'
+EX_OUTPUT_AGG_DATA_FILE = 'match-agg-data.gen.xlsx'
+EX_OUTPUT_REPORT_FILE = 'match-analysis-report.xlsx'
+EX_OUTPUT_DIRECTORY = 'match-analysis-report_{}_{}_{}'
+
+DATE_FORMAT = '%d-%m-%Y'
+UNKNOWN_PITCH_SECTOR = 'UNK'
+TEAM_COLUMN = 'team'
+MATCH_ANALYSIS_REPORT_TEMPLATE = 'templates/match-analysis-report-template.xlsx'

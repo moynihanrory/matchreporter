@@ -1,0 +1,209 @@
+GAA Scores Stats App Match Data,
+
+
+Team 1: Bally
+
+Team 2: Town
+
+CARDS:
+32mins 1st half Town  yellow card 2
+
+MATCH EVENTS
+1st half start: 14:45   21-04-19 Bally v. Town
+01mins 1st half Bally wide from play 11  Posn: 77:58
+01mins 1st half Town own puck/kick out won    Posn: 13:49
+01mins 1st half Town point from play 10  Posn: 5:31
+02mins 1st half Bally own puck/kick out won    Posn: 34:26
+02mins 1st half Bally point from play 13  Posn: 42:68
+02mins 1st half Town own puck/kick out won    Posn: 67:69
+03mins 1st half Town free/pen conceded    Posn: 15:67
+04mins 1st half Bally point from free 11  Posn: 20:68
+04mins 1st half Town own puck/kick out won    Posn: 11:41
+05mins 1st half Bally wide from play 15  Posn: 54:57
+05mins 1st half Town own puck/kick out won    Posn: 14:54
+05mins 1st half Bally free/pen conceded    Posn: 88:37
+05mins 1st half Town point from free   Posn: 84:36
+06mins 1st half Bally own puck/kick out lost    Posn: 90:49
+06mins 1st half Town point from play   Posn: 73:44
+07mins 1st half Town wide from play   Posn: 59:32
+07mins 1st half Bally own puck/kick out lost    Posn: 19:50
+07mins 1st half Town free/pen conceded    Posn: 10:62
+08mins 1st half Bally point from free 11  Posn: 20:57
+08mins 1st half Town own puck/kick out won    Posn: 82:49
+08mins 1st half Bally free/pen conceded  6  Posn: 72:26
+10mins 1st half Town point from free   Posn: 91:26
+11mins 1st half Bally point from play 14  Posn: 58:57
+11mins 1st half Town own puck/kick out won    Posn: 14:42
+11mins 1st half Bally free/pen conceded    Posn: 14:43
+12mins 1st half Town point from free   Posn: 12:41
+12mins 1st half Bally own puck/kick out won    Posn: 10:56
+13mins 1st half Town free/pen conceded    Posn: 51:34
+13mins 1st half Bally point from play 14  Posn: 17:69
+14mins 1st half Town wide from play 15  Posn: 26:32
+14mins 1st half Bally own puck/kick out won    Posn: 88:20
+15mins 1st half Bally point from free 14  Posn: 74:66
+15mins 1st half Town own puck/kick out lost    Posn: 77:43
+15mins 1st half Town free/pen conceded    Posn: 63:58
+16mins 1st half Bally point from free   Posn: 62:57
+16mins 1st half Town own puck/kick out lost    Posn: 17:42
+18mins 1st half Bally point from play   Posn: 70:85
+18mins 1st half Town own puck/kick out won    Posn: 15:42
+18mins 1st half Town wide from play   Posn: 27:18
+19mins 1st half Bally own puck/kick out lost    Posn: 89:38
+19mins 1st half Bally free/pen conceded    Posn: 87:30
+20mins 1st half Town free/pen conceded    Posn: 20:74
+21mins 1st half Bally point from free 11  Posn: 29:72
+21mins 1st half Town own puck/kick out won    Posn: 90:50
+23mins 1st half Town free/pen conceded    Posn: 63:36
+23mins 1st half Bally wide from free   Posn: 53:39
+24mins 1st half Town own puck/kick out won    Posn: 80:38
+24mins 1st half Town point from play   Posn: 71:36
+24mins 1st half Bally own puck/kick out won    Posn: 8:23
+25mins 1st half Bally free/pen conceded    Posn: 92:39
+26mins 1st half Town wide from free   Posn: 92:37
+26mins 1st half Bally own puck/kick out won    Posn: 21:56
+26mins 1st half Bally free/pen conceded    Posn: 15:56
+26mins 1st half Bally point from free   Posn: 21:58
+27mins 1st half Town own puck/kick out won    Posn: 67:83
+30mins 1st half Bally point from play 8  Posn: 19:70
+32mins 1st half Town  yellow card 2
+32mins 1st half Town own puck/kick out won    Posn: 50:84
+33mins 1st half Bally wide from play 14  Posn: 30:57
+Half time score: Bally 0-11(11)  Town 0-6(6)
+2nd half start: 15:32   21-04-19 Bally v. Town
+00mins 2nd half Bally point from play   Posn: 44:56
+00mins 2nd half Town own puck/kick out lost    Posn: 87:50
+01mins 2nd half Town out for 45/65    Posn: 62:18
+01mins 2nd half Town point from 45/65   Posn: 50:45
+02mins 2nd half Bally own puck/kick out won    Posn: 90:17
+02mins 2nd half Bally point from play 11  Posn: 23:72
+03mins 2nd half Town own puck/kick out lost    Posn: 87:37
+04mins 2nd half Bally point from play 13  Posn: 4:70
+04mins 2nd half Town own puck/kick out lost    Posn: 85:34
+05mins 2nd half Town wide from play   Posn: 93:43
+05mins 2nd half Bally own puck/kick out won    Posn: 93:17
+06mins 2nd half Town point from play   Posn: 66:21
+07mins 2nd half Bally own puck/kick out lost    Posn: 79:56
+07mins 2nd half Bally free/pen conceded    Posn: 82:50
+07mins 2nd half Town point from play   Posn: 31:41
+07mins 2nd half Bally own puck/kick out won    Posn: 19:43
+07mins 2nd half Bally point from play   Posn: 64:76
+08mins 2nd half Town own puck/kick out won    Posn: 19:49
+10mins 2nd half Bally point from play   Posn: 52:71
+10mins 2nd half Town own puck/kick out lost    Posn: 13:46
+12mins 2nd half Town point from play   Posn: 54:23
+13mins 2nd half Bally own puck/kick out won    Posn: 8:54
+13mins 2nd half Town free/pen conceded    Posn: 24:30
+14mins 2nd half Town free/pen conceded    Posn: 11:70
+14mins 2nd half Bally point from free   Posn: 19:72
+15mins 2nd half Town own puck/kick out won    Posn: 8:27
+15mins 2nd half Town point from play   Posn: 36:26
+15mins 2nd half Bally own puck/kick out won    Posn: 9:55
+16mins 2nd half Bally free/pen conceded    Posn: 45:48
+16mins 2nd half Town wide from free   Posn: 23:46
+16mins 2nd half Bally own puck/kick out won    Posn: 90:18
+17mins 2nd half Bally point from play   Posn: 53:58
+17mins 2nd half Town own puck/kick out won    Posn: 79:42
+17mins 2nd half Bally free/pen conceded    Posn: 66:28
+18mins 2nd half Town point from free   Posn: 64:29
+18mins 2nd half Bally own puck/kick out lost    Posn: 94:59
+19mins 2nd half Town free/pen conceded    Posn: 67:46
+20mins 2nd half Bally point from free   Posn: 53:45
+20mins 2nd half Town own puck/kick out lost    Posn: 67:41
+21mins 2nd half Town point from play   Posn: 34:21
+21mins 2nd half Bally own puck/kick out won    Posn: 90:61
+23mins 2nd half Town wide from play   Posn: 91:23
+23mins 2nd half Bally own puck/kick out won    Posn: 86:57
+24mins 2nd half Town wide from play   Posn: 12:25
+24mins 2nd half Bally own puck/kick out won    Posn: 10:27
+24mins 2nd half Bally free/pen conceded    Posn: 68:73
+25mins 2nd half Town point from play   Posn: 68:8
+26mins 2nd half Bally own puck/kick out won    Posn: 48:58
+26mins 2nd half Bally goal from play   Posn: 68:95
+26mins 2nd half Town own puck/kick out won    Posn: 80:43
+26mins 2nd half Town wide from play   Posn: 19:10
+27mins 2nd half Bally own puck/kick out won    Posn: 7:19
+28mins 2nd half Bally free/pen conceded    Posn: 27:81
+30mins 2nd half Bally wide from play   Posn: 52:70
+30mins 2nd half Town own puck/kick out won    Posn: 89:73
+30mins 2nd half Bally free/pen conceded    Posn: 27:8
+31mins 2nd half Town saved from free   Posn: 24:13
+31mins 2nd half Bally free/pen conceded    Posn: 35:6
+32mins 2nd half Town saved out for 45/65    Posn: 35:1
+Full time score: Bally 1-19(22)  Town 0-14(14)
+
+
+MATCH STATS SUMMARY
+Team 1: Bally
+1 Goals,  19 Points.  Total:22
+1 goals from play.  0 goals from frees/pen/45/65
+11 points from play.  8 points from frees/pen/45/65
+5 total wides. 4 wides from play. 1 wides from frees/pen/45/65
+0 total out for 45/65. 0 out for 45/65 from play. 0 out for 45/65 from frees/pen/45/65
+0 total off posts. 0 off posts from play. 0 off posts frees/pen/45/65
+0 total saved. 0 saved from play. 0 saved from frees/pen/45/65
+0 total saved out for 45/65. 0 saved out for 45/65 from play. 0 saved out for 45/65 from frees/pen/45/65
+0 total short. 0 short from play. 0 short from frees/pen/45/65
+TOTAL SHOTS:25 Scored:20
+(80%)
+Shots from play:16 Scored:12
+(75%)
+Shots from free/pen/45/65:9  Scored:8  (88%)
+Frees conceeded: 13
+turnovers won: 0(0%)
+turnovers lost: 0(0%)
+Total puck/kick outs: 23
+own puck/kick outs won: 16(76%)
+own puck/kick outs lost: 5(23%)
+
+
+Team 2: Town
+0 Goals,  14 Points.  Total:14
+0 goals from play.  0 goals from frees/pen/45/65
+9 points from play.  5 points from frees/pen/45/65
+9 total wides. 7 wides from play. 2 wides from frees/pen/45/65
+1 total out for 45/65. 1 out for 45/65 from play. 0 out for 45/65 from frees/pen/45/65
+0 total off posts. 0 off posts from play. 0 off posts frees/pen/45/65
+1 total saved. 0 saved from play. 1 saved from frees/pen/45/65
+1 total saved out for 45/65. 1 saved out for 45/65 from play. 0 saved out for 45/65 from frees/pen/45/65
+0 total short. 0 short from play. 0 short from frees/pen/45/65
+TOTAL SHOTS:26 Scored:14
+(53%)
+Shots from play:18 Scored:9
+(50%)
+Shots from free/pen/45/65:8  Scored:5  (62%)
+frees conceded: 9
+turnovers won: 0(0%)
+turnovers lost: 0(0%)
+Total puck/kick outs: 25
+own puck/kick outs won: 16(69%)
+own puck/kick outs lost: 7(30%)
+Cards: 0B  1Y  0R
+
+
+LIST OF SCORERS
+player  **  Total Goals / Points  **  Goals/Points from placed balls  **  total wides  **  wides from placed ball
+
+Bally SCORERS
+
+---  **   1-9  **  0-4  **  2  **  1
+
+11  **   0-4  **  0-3  **  1  **  0
+
+14  **   0-3  **  0-1  **  1  **  0
+
+13  **   0-2  **  0-0  **  0  **  0
+
+8  **   0-1  **  0-0  **  0  **  0
+
+15  **   0-0  **  0-0  **  1  **  0
+
+
+Town SCORERS
+
+---  **   0-13  **  0-5  **  11  **  3
+
+10  **   0-1  **  0-0  **  0  **  0
+
+15  **   0-0  **  0-0  **  1  **  0
+
