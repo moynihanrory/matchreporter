@@ -2,6 +2,12 @@ import sys
 import logging
 import argparse
 
+import os
+
+PACKAGE_PARENT = '..'
+SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.expanduser(__file__))))
+sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
+
 from matchreporter.analysis.analyser import analyse
 from matchreporter.collect.formatter import cleanAndFormatData
 from matchreporter.communicate.matchreport import createMatchReport
@@ -21,6 +27,10 @@ def parseCommandLine():
 
 def main(argv):
     args = parseCommandLine()
+
+    if args.gaamatch is None:
+        exit("Please set the -gaamatch argument (full name and path to the list of text events). E.g. python "
+             "matchreporter\matchreporter_cli.py 'C:\some_dir\match-events.txt'")
 
     mobileAppOutput = loadDataFromFile(args.gaamatch)
 
