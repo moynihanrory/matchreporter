@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(name='matchreporter',
-      version='0.1',
+      version='0.2',
       description='Creates analysis reports for GAA matches',
       classifiers=[
             'Development Status :: 3 - Alpha',

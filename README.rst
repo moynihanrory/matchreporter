@@ -20,7 +20,7 @@ Assuming you have saved a catalog of match events to a text file (e.g. teama-v-t
 
 .. code::
 
-    python3 matchreporter_cli.py -gaamatch teama-v-teamb.txt
+    python3 matchreporter/matchreporter_cli.py -gaamatch teama-v-teamb.txt
 
 Output
 ^^^^^^
