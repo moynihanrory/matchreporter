@@ -1,7 +1,8 @@
 import os
 
-from matchreporter.constants import EX_OUTPUT_AGG_DATA_FILE, EX_OUTPUT_REPORT_FILE, EX_OUTPUT_DIRECTORY, \
-    MATCH_ANALYSIS_REPORT_TEMPLATE
+from matchreporter.constants import EX_GAAMATCH_OUTPUT_AGG_DATA_FILE, EX_GAAMATCH_OUTPUT_REPORT_FILE, EX_OUTPUT_DIRECTORY, \
+    GAAMATCH_ANALYSIS_REPORT_TEMPLATE, SPORTSCODE_REPORT_TEMPLATE, EX_SPORTSCODE_OUTPUT_AGG_DATA_FILE, \
+    EX_SPORTSCODE_OUTPUT_REPORT_FILE
 from matchreporter.helpers.datetimehelper import getTodaysDate
 
 
@@ -29,14 +30,26 @@ def createFilePath(filename, outputDir):
     return os.path.join(outputDir, filename)
 
 
-def getOutputExcelFilename(teams):
-    filename = EX_OUTPUT_AGG_DATA_FILE.format(teams[0], teams[1], getTodaysDate())
+def getGaaMatchOutputExcelFilename(teams):
+    filename = EX_GAAMATCH_OUTPUT_AGG_DATA_FILE.format(teams[0], teams[1], getTodaysDate())
 
     return filename
 
 
-def getReportExcelFilename(teams):
-    filename = EX_OUTPUT_REPORT_FILE.format(teams[0], teams[1], getTodaysDate())
+def getGaaMatchReportExcelFilename(teams):
+    filename = EX_GAAMATCH_OUTPUT_REPORT_FILE.format(teams[0], teams[1], getTodaysDate())
+
+    return filename
+
+
+def getSportscodeOutputExcelFilename(teams):
+    filename = EX_SPORTSCODE_OUTPUT_AGG_DATA_FILE.format(teams[0], teams[1], getTodaysDate())
+
+    return filename
+
+
+def getSportscodeReportExcelFilename(teams):
+    filename = EX_SPORTSCODE_OUTPUT_REPORT_FILE.format(teams[0], teams[1], getTodaysDate())
 
     return filename
 
@@ -47,9 +60,17 @@ def getOutputDirectoryName(teams):
     return dirName
 
 
-def getMatchAnalysisReportName(outputDirectory):
-    return os.path.join(outputDirectory, EX_OUTPUT_REPORT_FILE)
+def getGaaMatchReportTemplateName():
+    return os.path.join(os.getcwd(), GAAMATCH_ANALYSIS_REPORT_TEMPLATE)
 
 
-def getMatchAnalysisReportTemplateName():
-    return os.path.join(os.getcwd(), MATCH_ANALYSIS_REPORT_TEMPLATE)
+def getSportscodeReportTemplateName():
+    return os.path.join(os.getcwd(), SPORTSCODE_REPORT_TEMPLATE)
+
+
+def getGaaMatchAnalysisReportName(outputDirectory):
+    return os.path.join(outputDirectory, EX_GAAMATCH_OUTPUT_REPORT_FILE)
+
+
+def getSportsCodeAnalysisReportName(outputDirectory):
+    return os.path.join(outputDirectory, EX_SPORTSCODE_OUTPUT_REPORT_FILE)

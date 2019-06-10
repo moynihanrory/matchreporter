@@ -1,209 +1,161 @@
 GAA Scores Stats App Match Data,
 
 
-Team 1: Bally
+Team 1: Galway
 
-Team 2: Town
+Team 2: Limerick
 
-CARDS:
-32mins 1st half Town  yellow card 2
 
 MATCH EVENTS
-1st half start: 14:45   21-04-19 Bally v. Town
-01mins 1st half Bally wide from play 11  Posn: 77:58
-01mins 1st half Town own puck/kick out won    Posn: 13:49
-01mins 1st half Town point from play 10  Posn: 5:31
-02mins 1st half Bally own puck/kick out won    Posn: 34:26
-02mins 1st half Bally point from play 13  Posn: 42:68
-02mins 1st half Town own puck/kick out won    Posn: 67:69
-03mins 1st half Town free/pen conceded    Posn: 15:67
-04mins 1st half Bally point from free 11  Posn: 20:68
-04mins 1st half Town own puck/kick out won    Posn: 11:41
-05mins 1st half Bally wide from play 15  Posn: 54:57
-05mins 1st half Town own puck/kick out won    Posn: 14:54
-05mins 1st half Bally free/pen conceded    Posn: 88:37
-05mins 1st half Town point from free   Posn: 84:36
-06mins 1st half Bally own puck/kick out lost    Posn: 90:49
-06mins 1st half Town point from play   Posn: 73:44
-07mins 1st half Town wide from play   Posn: 59:32
-07mins 1st half Bally own puck/kick out lost    Posn: 19:50
-07mins 1st half Town free/pen conceded    Posn: 10:62
-08mins 1st half Bally point from free 11  Posn: 20:57
-08mins 1st half Town own puck/kick out won    Posn: 82:49
-08mins 1st half Bally free/pen conceded  6  Posn: 72:26
-10mins 1st half Town point from free   Posn: 91:26
-11mins 1st half Bally point from play 14  Posn: 58:57
-11mins 1st half Town own puck/kick out won    Posn: 14:42
-11mins 1st half Bally free/pen conceded    Posn: 14:43
-12mins 1st half Town point from free   Posn: 12:41
-12mins 1st half Bally own puck/kick out won    Posn: 10:56
-13mins 1st half Town free/pen conceded    Posn: 51:34
-13mins 1st half Bally point from play 14  Posn: 17:69
-14mins 1st half Town wide from play 15  Posn: 26:32
-14mins 1st half Bally own puck/kick out won    Posn: 88:20
-15mins 1st half Bally point from free 14  Posn: 74:66
-15mins 1st half Town own puck/kick out lost    Posn: 77:43
-15mins 1st half Town free/pen conceded    Posn: 63:58
-16mins 1st half Bally point from free   Posn: 62:57
-16mins 1st half Town own puck/kick out lost    Posn: 17:42
-18mins 1st half Bally point from play   Posn: 70:85
-18mins 1st half Town own puck/kick out won    Posn: 15:42
-18mins 1st half Town wide from play   Posn: 27:18
-19mins 1st half Bally own puck/kick out lost    Posn: 89:38
-19mins 1st half Bally free/pen conceded    Posn: 87:30
-20mins 1st half Town free/pen conceded    Posn: 20:74
-21mins 1st half Bally point from free 11  Posn: 29:72
-21mins 1st half Town own puck/kick out won    Posn: 90:50
-23mins 1st half Town free/pen conceded    Posn: 63:36
-23mins 1st half Bally wide from free   Posn: 53:39
-24mins 1st half Town own puck/kick out won    Posn: 80:38
-24mins 1st half Town point from play   Posn: 71:36
-24mins 1st half Bally own puck/kick out won    Posn: 8:23
-25mins 1st half Bally free/pen conceded    Posn: 92:39
-26mins 1st half Town wide from free   Posn: 92:37
-26mins 1st half Bally own puck/kick out won    Posn: 21:56
-26mins 1st half Bally free/pen conceded    Posn: 15:56
-26mins 1st half Bally point from free   Posn: 21:58
-27mins 1st half Town own puck/kick out won    Posn: 67:83
-30mins 1st half Bally point from play 8  Posn: 19:70
-32mins 1st half Town  yellow card 2
-32mins 1st half Town own puck/kick out won    Posn: 50:84
-33mins 1st half Bally wide from play 14  Posn: 30:57
-Half time score: Bally 0-11(11)  Town 0-6(6)
-2nd half start: 15:32   21-04-19 Bally v. Town
-00mins 2nd half Bally point from play   Posn: 44:56
-00mins 2nd half Town own puck/kick out lost    Posn: 87:50
-01mins 2nd half Town out for 45/65    Posn: 62:18
-01mins 2nd half Town point from 45/65   Posn: 50:45
-02mins 2nd half Bally own puck/kick out won    Posn: 90:17
-02mins 2nd half Bally point from play 11  Posn: 23:72
-03mins 2nd half Town own puck/kick out lost    Posn: 87:37
-04mins 2nd half Bally point from play 13  Posn: 4:70
-04mins 2nd half Town own puck/kick out lost    Posn: 85:34
-05mins 2nd half Town wide from play   Posn: 93:43
-05mins 2nd half Bally own puck/kick out won    Posn: 93:17
-06mins 2nd half Town point from play   Posn: 66:21
-07mins 2nd half Bally own puck/kick out lost    Posn: 79:56
-07mins 2nd half Bally free/pen conceded    Posn: 82:50
-07mins 2nd half Town point from play   Posn: 31:41
-07mins 2nd half Bally own puck/kick out won    Posn: 19:43
-07mins 2nd half Bally point from play   Posn: 64:76
-08mins 2nd half Town own puck/kick out won    Posn: 19:49
-10mins 2nd half Bally point from play   Posn: 52:71
-10mins 2nd half Town own puck/kick out lost    Posn: 13:46
-12mins 2nd half Town point from play   Posn: 54:23
-13mins 2nd half Bally own puck/kick out won    Posn: 8:54
-13mins 2nd half Town free/pen conceded    Posn: 24:30
-14mins 2nd half Town free/pen conceded    Posn: 11:70
-14mins 2nd half Bally point from free   Posn: 19:72
-15mins 2nd half Town own puck/kick out won    Posn: 8:27
-15mins 2nd half Town point from play   Posn: 36:26
-15mins 2nd half Bally own puck/kick out won    Posn: 9:55
-16mins 2nd half Bally free/pen conceded    Posn: 45:48
-16mins 2nd half Town wide from free   Posn: 23:46
-16mins 2nd half Bally own puck/kick out won    Posn: 90:18
-17mins 2nd half Bally point from play   Posn: 53:58
-17mins 2nd half Town own puck/kick out won    Posn: 79:42
-17mins 2nd half Bally free/pen conceded    Posn: 66:28
-18mins 2nd half Town point from free   Posn: 64:29
-18mins 2nd half Bally own puck/kick out lost    Posn: 94:59
-19mins 2nd half Town free/pen conceded    Posn: 67:46
-20mins 2nd half Bally point from free   Posn: 53:45
-20mins 2nd half Town own puck/kick out lost    Posn: 67:41
-21mins 2nd half Town point from play   Posn: 34:21
-21mins 2nd half Bally own puck/kick out won    Posn: 90:61
-23mins 2nd half Town wide from play   Posn: 91:23
-23mins 2nd half Bally own puck/kick out won    Posn: 86:57
-24mins 2nd half Town wide from play   Posn: 12:25
-24mins 2nd half Bally own puck/kick out won    Posn: 10:27
-24mins 2nd half Bally free/pen conceded    Posn: 68:73
-25mins 2nd half Town point from play   Posn: 68:8
-26mins 2nd half Bally own puck/kick out won    Posn: 48:58
-26mins 2nd half Bally goal from play   Posn: 68:95
-26mins 2nd half Town own puck/kick out won    Posn: 80:43
-26mins 2nd half Town wide from play   Posn: 19:10
-27mins 2nd half Bally own puck/kick out won    Posn: 7:19
-28mins 2nd half Bally free/pen conceded    Posn: 27:81
-30mins 2nd half Bally wide from play   Posn: 52:70
-30mins 2nd half Town own puck/kick out won    Posn: 89:73
-30mins 2nd half Bally free/pen conceded    Posn: 27:8
-31mins 2nd half Town saved from free   Posn: 24:13
-31mins 2nd half Bally free/pen conceded    Posn: 35:6
-32mins 2nd half Town saved out for 45/65    Posn: 35:1
-Full time score: Bally 1-19(22)  Town 0-14(14)
+1st half start: 00:58   08-01-12 Galway v. Limerick
+01mins 1st half Limerick wide from play   Posn: 10:31
+01mins 1st half Galway own puck/kick out lost    Posn: 86:61
+02mins 1st half Limerick wide from play 12  Posn: 90:17
+02mins 1st half Galway own puck/kick out won    Posn: 17:48
+03mins 1st half Galway wide from play   Posn: 8:60
+03mins 1st half Limerick own puck/kick out lost    Posn: 94:46
+03mins 1st half Limerick point from play 10  Posn: 33:31
+04mins 1st half Galway own puck/kick out won    Posn: 12:48
+04mins 1st half Galway point from play 15  Posn: 14:69
+04mins 1st half Limerick own puck/kick out won    Posn: 84:43
+04mins 1st half Galway free/pen conceded    Posn: 88:42
+05mins 1st half Limerick point from play 11  Posn: 49:28
+05mins 1st half Galway own puck/kick out lost    Posn: 82:57
+05mins 1st half Limerick point from play 14  Posn: 84:36
+05mins 1st half Galway own puck/kick out lost    Posn: 16:40
+06mins 1st half Limerick wide from play   Posn: 23:26
+06mins 1st half Limerick free/pen conceded    Posn: 27:76
+07mins 1st half Galway point from free 11  Posn: 29:73
+07mins 1st half Limerick own puck/kick out lost    Posn: 30:40
+07mins 1st half Limerick wide from play 5  Posn: 29:57
+08mins 1st half Galway own puck/kick out won    Posn: 11:21
+09mins 1st half Galway   5
+10mins 1st half Galway wide from free 11  Posn: 82:73
+10mins 1st half Limerick free/pen conceded    Posn: 83:75
+10mins 1st half Limerick own puck/kick out won    Posn: 48:83
+11mins 1st half Galway point from play   Posn: 35:71
+11mins 1st half Limerick own puck/kick out won    Posn: 74:35
+11mins 1st half Limerick free/pen conceded    Posn: 28:80
+12mins 1st half Galway point from free 11  Posn: 31:79
+12mins 1st half Limerick own puck/kick out lost    Posn: 95:34
+14mins 1st half Limerick free/pen conceded    Posn: 10:84
+15mins 1st half Galway wide from free 11  Posn: 11:85
+15mins 1st half Limerick own puck/kick out lost    Posn: 22:30
+15mins 1st half Galway wide from play 12  Posn: 49:45
+16mins 1st half Limerick own puck/kick out won    Posn: 49:58
+17mins 1st half Galway free/pen conceded  5  Posn: 23:44
+17mins 1st half Limerick point from free 14  Posn: 26:43
+17mins 1st half Galway own puck/kick out won    Posn: 5:18
+17mins 1st half Galway point from play 13  Posn: 16:77
+18mins 1st half Limerick own puck/kick out won    Posn: 60:56
+19mins 1st half Limerick wide from play 10  Posn: 21:27
+19mins 1st half Galway own puck/kick out lost    Posn: 9:57
+19mins 1st half Galway free/pen conceded    Posn: 16:55
+19mins 1st half Galway point from play 8  Posn: 47:61
+19mins 1st half Limerick own puck/kick out won    Posn: 59:59
+20mins 1st half Limerick wide from play 10  Posn: 52:46
+20mins 1st half Galway own puck/kick out won    Posn: 17:58
+20mins 1st half Galway free/pen conceded    Posn: 18:57
+21mins 1st half Limerick point from free   Posn: 19:57
+23mins 1st half Galway out for 45/65    Posn: 82:98
+23mins 1st half Galway wide from 45/65 11  Posn: 73:54
+24mins 1st half Limerick own puck/kick out won    Posn: 93:30
+24mins 1st half Limerick wide    Posn: 95:29
+24mins 1st half Galway own puck/kick out won    Posn: 48:40
+25mins 1st half Galway point from play 11  Posn: 40:60
+26mins 1st half Limerick own puck/kick out won    Posn: 72:58
+26mins 1st half Limerick point from play   Posn: 30:27
+26mins 1st half Galway own puck/kick out won    Posn: 86:30
+26mins 1st half Galway wide from play   Posn: 62:42
+27mins 1st half Limerick own puck/kick out lost    Posn: 42:59
+29mins 1st half Galway wide from play 12  Posn: 11:71
+29mins 1st half Limerick own puck/kick out lost    Posn: 18:23
+29mins 1st half Galway wide from play   Posn: 88:74
+30mins 1st half Limerick own puck/kick out won    Posn: 17:59
+30mins 1st half Limerick wide from play   Posn: 11:2
+30mins 1st half Galway own puck/kick out won    Posn: 82:15
+30mins 1st half Galway point from play 8  Posn: 50:59
+31mins 1st half Limerick own puck/kick out lost    Posn: 94:51
+32mins 1st half Galway free/pen conceded    Posn: 10:38
+33mins 1st half Limerick point from free 14  Posn: 8:40
+Half time score: Galway 0-8(8)  Limerick 0-7(7)
+2nd half start: 01:40   08-01-12 Galway v. Limerick
+00mins 2nd half Galway free/pen conceded  12  Posn: 90:42
+00mins 2nd half Limerick point from free 14  Posn: 92:40
+01mins 2nd half Galway own puck/kick out lost    Posn: 65:61
+01mins 2nd half Limerick point from play 13  Posn: 80:16
+01mins 2nd half Galway own puck/kick out won    Posn: 58:71
+01mins 2nd half Galway wide from play 9  Posn: 28:71
+02mins 2nd half Limerick own puck/kick out won    Posn: 16:70
+02mins 2nd half Limerick free/pen conceded    Posn: 50:30
+02mins 2nd half Galway point from play 12  Posn: 74:64
+03mins 2nd half Limerick own puck/kick out lost    Posn: 14:40
+03mins 2nd half Galway free/pen conceded    Posn: 11:43
+03mins 2nd half Galway free/pen conceded    Posn: 61:91
+04mins 2nd half Limerick free/pen conceded    Posn: 57:56
+05mins 2nd half Galway point from free 11  Posn: 53:56
+05mins 2nd half Limerick own puck/kick out lost    Posn: 20:54
+05mins 2nd half Galway free/pen conceded  15  Posn: 22:82
+06mins 2nd half Galway wide from play 11  Posn: 45:54
+06mins 2nd half Limerick own puck/kick out lost    Posn: 90:44
+07mins 2nd half Galway saved out for 45/65  10  Posn: 63:85
+07mins 2nd half Limerick free/pen conceded    Posn: 59:83
+07mins 2nd half Galway point from free 13  Posn: 65:83
+07mins 2nd half Limerick own puck/kick out won    Posn: 12:79
+08mins 2nd half Limerick wide from play 14  Posn: 7:20
+08mins 2nd half Galway own puck/kick out won  12  Posn: 85:25
+09mins 2nd half Galway wide from play 12  Posn: 51:58
+10mins 2nd half Limerick own puck/kick out won    Posn: 10:72
+10mins 2nd half Galway free/pen conceded    Posn: 72:23
+12mins 2nd half Galway own puck/kick out lost    Posn: 13:53
+13mins 2nd half Limerick point from play   Posn: 45:25
+14mins 2nd half Galway own puck/kick out won    Posn: 69:54
+14mins 2nd half Galway goal from play 15  Posn: 32:91
+14mins 2nd half Limerick own puck/kick out lost    Posn: 78:41
+14mins 2nd half Limerick free/pen conceded    Posn: 21:50
+15mins 2nd half Galway wide from free 14  Posn: 49:50
+15mins 2nd half Limerick own puck/kick out won    Posn: 50:63
+16mins 2nd half Galway free/pen conceded    Posn: 51:62
+16mins 2nd half Galway point from free 14  Posn: 53:58
+17mins 2nd half Limerick own puck/kick out lost    Posn: 16:49
+17mins 2nd half Galway free/pen conceded    Posn: 57:60
+19mins 2nd half Limerick free/pen conceded    Posn: 52:76
+19mins 2nd half Galway point from free 14  Posn: 54:74
+19mins 2nd half Limerick own puck/kick out lost    Posn: 17:48
+20mins 2nd half Galway wide from play 5  Posn: 8:63
+20mins 2nd half Limerick own puck/kick out lost    Posn: 49:50
+20mins 2nd half Galway point from play 14  Posn: 48:82
+21mins 2nd half Limerick own puck/kick out won    Posn: 76:80
+23mins 2nd half Galway point from play 11  Posn: 24:82
+23mins 2nd half Limerick own puck/kick out won    Posn: 8:74
+23mins 2nd half Galway free/pen conceded    Posn: 16:45
+24mins 2nd half Galway point from play 13  Posn: 61:80
+24mins 2nd half Limerick own puck/kick out lost    Posn: 45:57
+24mins 2nd half Limerick free/pen conceded    Posn: 61:63
+25mins 2nd half Galway point from free 14  Posn: 70:63
+25mins 2nd half Limerick own puck/kick out won    Posn: 50:73
+25mins 2nd half Galway point from play 11  Posn: 44:49
+25mins 2nd half Limerick own puck/kick out won    Posn: 28:82
+27mins 2nd half Limerick wide from play   Posn: 77:26
+27mins 2nd half Galway own puck/kick out won    Posn: 22:48
+27mins 2nd half Galway point from play 11  Posn: 19:48
+28mins 2nd half Limerick own puck/kick out won    Posn: 89:66
+28mins 2nd half Galway wide from play   Posn: 85:57
+28mins 2nd half Limerick own puck/kick out lost    Posn: 6:69
+28mins 2nd half Galway wide from play 13  Posn: 9:82
+28mins 2nd half Limerick own puck/kick out won    Posn: 33:42
+28mins 2nd half Galway free/pen conceded    Posn: 30:41
+29mins 2nd half Limerick point from free   Posn: 33:41
+29mins 2nd half Galway own puck/kick out won    Posn: 13:48
+29mins 2nd half Galway wide from play 12  Posn: 14:61
+30mins 2nd half Limerick own puck/kick out lost    Posn: 21:49
+30mins 2nd half Galway point from play 10  Posn: 50:56
+30mins 2nd half Limerick own puck/kick out lost    Posn: 30:44
+30mins 2nd half Galway point from play   Posn: 74:57
+31mins 2nd half Limerick own puck/kick out won    Posn: 23:49
+31mins 2nd half Limerick point from play   Posn: 49:40
+31mins 2nd half Galway own puck/kick out won    Posn: 69:61
+31mins 2nd half Galway point from play 12  Posn: 73:58
+Full time score: Galway 1-22(25)  Limerick 0-12(12)
 
-
-MATCH STATS SUMMARY
-Team 1: Bally
-1 Goals,  19 Points.  Total:22
-1 goals from play.  0 goals from frees/pen/45/65
-11 points from play.  8 points from frees/pen/45/65
-5 total wides. 4 wides from play. 1 wides from frees/pen/45/65
-0 total out for 45/65. 0 out for 45/65 from play. 0 out for 45/65 from frees/pen/45/65
-0 total off posts. 0 off posts from play. 0 off posts frees/pen/45/65
-0 total saved. 0 saved from play. 0 saved from frees/pen/45/65
-0 total saved out for 45/65. 0 saved out for 45/65 from play. 0 saved out for 45/65 from frees/pen/45/65
-0 total short. 0 short from play. 0 short from frees/pen/45/65
-TOTAL SHOTS:25 Scored:20
-(80%)
-Shots from play:16 Scored:12
-(75%)
-Shots from free/pen/45/65:9  Scored:8  (88%)
-Frees conceeded: 13
-turnovers won: 0(0%)
-turnovers lost: 0(0%)
-Total puck/kick outs: 23
-own puck/kick outs won: 16(76%)
-own puck/kick outs lost: 5(23%)
-
-
-Team 2: Town
-0 Goals,  14 Points.  Total:14
-0 goals from play.  0 goals from frees/pen/45/65
-9 points from play.  5 points from frees/pen/45/65
-9 total wides. 7 wides from play. 2 wides from frees/pen/45/65
-1 total out for 45/65. 1 out for 45/65 from play. 0 out for 45/65 from frees/pen/45/65
-0 total off posts. 0 off posts from play. 0 off posts frees/pen/45/65
-1 total saved. 0 saved from play. 1 saved from frees/pen/45/65
-1 total saved out for 45/65. 1 saved out for 45/65 from play. 0 saved out for 45/65 from frees/pen/45/65
-0 total short. 0 short from play. 0 short from frees/pen/45/65
-TOTAL SHOTS:26 Scored:14
-(53%)
-Shots from play:18 Scored:9
-(50%)
-Shots from free/pen/45/65:8  Scored:5  (62%)
-frees conceded: 9
-turnovers won: 0(0%)
-turnovers lost: 0(0%)
-Total puck/kick outs: 25
-own puck/kick outs won: 16(69%)
-own puck/kick outs lost: 7(30%)
-Cards: 0B  1Y  0R
-
-
-LIST OF SCORERS
-player  **  Total Goals / Points  **  Goals/Points from placed balls  **  total wides  **  wides from placed ball
-
-Bally SCORERS
-
----  **   1-9  **  0-4  **  2  **  1
-
-11  **   0-4  **  0-3  **  1  **  0
-
-14  **   0-3  **  0-1  **  1  **  0
-
-13  **   0-2  **  0-0  **  0  **  0
-
-8  **   0-1  **  0-0  **  0  **  0
-
-15  **   0-0  **  0-0  **  1  **  0
-
-
-Town SCORERS
-
----  **   0-13  **  0-5  **  11  **  3
-
-10  **   0-1  **  0-0  **  0  **  0
-
-15  **   0-0  **  0-0  **  1  **  0
 

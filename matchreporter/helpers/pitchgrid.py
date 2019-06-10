@@ -8,11 +8,11 @@ class Grid(object):
                    '2': range(31, 71),
                    '3': range(71, 100)}
 
-        self.y = { 'A': range(0, 16),
-                   'B': range(16, 35),
+        self.y = { 'A': range(0, 9),
+                   'B': range(9, 35),
                    'C': range(35, 65),
-                   'D': range(65, 85),
-                   'E': range(85, 100)}
+                   'D': range(65, 91),
+                   'E': range(91, 100)}
 
 
 
