@@ -1,161 +1,141 @@
-GAA Scores Stats App Match Data,
-
-
-Team 1: Galway
-
-Team 2: Limerick
-
-
 MATCH EVENTS
-1st half start: 00:58   08-01-12 Galway v. Limerick
-01mins 1st half Limerick wide from play   Posn: 10:31
-01mins 1st half Galway own puck/kick out lost    Posn: 86:61
-02mins 1st half Limerick wide from play 12  Posn: 90:17
-02mins 1st half Galway own puck/kick out won    Posn: 17:48
-03mins 1st half Galway wide from play   Posn: 8:60
-03mins 1st half Limerick own puck/kick out lost    Posn: 94:46
-03mins 1st half Limerick point from play 10  Posn: 33:31
-04mins 1st half Galway own puck/kick out won    Posn: 12:48
-04mins 1st half Galway point from play 15  Posn: 14:69
-04mins 1st half Limerick own puck/kick out won    Posn: 84:43
-04mins 1st half Galway free/pen conceded    Posn: 88:42
-05mins 1st half Limerick point from play 11  Posn: 49:28
-05mins 1st half Galway own puck/kick out lost    Posn: 82:57
-05mins 1st half Limerick point from play 14  Posn: 84:36
-05mins 1st half Galway own puck/kick out lost    Posn: 16:40
-06mins 1st half Limerick wide from play   Posn: 23:26
-06mins 1st half Limerick free/pen conceded    Posn: 27:76
-07mins 1st half Galway point from free 11  Posn: 29:73
-07mins 1st half Limerick own puck/kick out lost    Posn: 30:40
-07mins 1st half Limerick wide from play 5  Posn: 29:57
-08mins 1st half Galway own puck/kick out won    Posn: 11:21
-09mins 1st half Galway   5
-10mins 1st half Galway wide from free 11  Posn: 82:73
-10mins 1st half Limerick free/pen conceded    Posn: 83:75
-10mins 1st half Limerick own puck/kick out won    Posn: 48:83
-11mins 1st half Galway point from play   Posn: 35:71
-11mins 1st half Limerick own puck/kick out won    Posn: 74:35
-11mins 1st half Limerick free/pen conceded    Posn: 28:80
-12mins 1st half Galway point from free 11  Posn: 31:79
-12mins 1st half Limerick own puck/kick out lost    Posn: 95:34
-14mins 1st half Limerick free/pen conceded    Posn: 10:84
-15mins 1st half Galway wide from free 11  Posn: 11:85
-15mins 1st half Limerick own puck/kick out lost    Posn: 22:30
-15mins 1st half Galway wide from play 12  Posn: 49:45
-16mins 1st half Limerick own puck/kick out won    Posn: 49:58
-17mins 1st half Galway free/pen conceded  5  Posn: 23:44
-17mins 1st half Limerick point from free 14  Posn: 26:43
-17mins 1st half Galway own puck/kick out won    Posn: 5:18
-17mins 1st half Galway point from play 13  Posn: 16:77
-18mins 1st half Limerick own puck/kick out won    Posn: 60:56
-19mins 1st half Limerick wide from play 10  Posn: 21:27
-19mins 1st half Galway own puck/kick out lost    Posn: 9:57
-19mins 1st half Galway free/pen conceded    Posn: 16:55
-19mins 1st half Galway point from play 8  Posn: 47:61
-19mins 1st half Limerick own puck/kick out won    Posn: 59:59
-20mins 1st half Limerick wide from play 10  Posn: 52:46
-20mins 1st half Galway own puck/kick out won    Posn: 17:58
-20mins 1st half Galway free/pen conceded    Posn: 18:57
-21mins 1st half Limerick point from free   Posn: 19:57
-23mins 1st half Galway out for 45/65    Posn: 82:98
-23mins 1st half Galway wide from 45/65 11  Posn: 73:54
-24mins 1st half Limerick own puck/kick out won    Posn: 93:30
-24mins 1st half Limerick wide    Posn: 95:29
-24mins 1st half Galway own puck/kick out won    Posn: 48:40
-25mins 1st half Galway point from play 11  Posn: 40:60
-26mins 1st half Limerick own puck/kick out won    Posn: 72:58
-26mins 1st half Limerick point from play   Posn: 30:27
-26mins 1st half Galway own puck/kick out won    Posn: 86:30
-26mins 1st half Galway wide from play   Posn: 62:42
-27mins 1st half Limerick own puck/kick out lost    Posn: 42:59
-29mins 1st half Galway wide from play 12  Posn: 11:71
-29mins 1st half Limerick own puck/kick out lost    Posn: 18:23
-29mins 1st half Galway wide from play   Posn: 88:74
-30mins 1st half Limerick own puck/kick out won    Posn: 17:59
-30mins 1st half Limerick wide from play   Posn: 11:2
-30mins 1st half Galway own puck/kick out won    Posn: 82:15
-30mins 1st half Galway point from play 8  Posn: 50:59
-31mins 1st half Limerick own puck/kick out lost    Posn: 94:51
-32mins 1st half Galway free/pen conceded    Posn: 10:38
-33mins 1st half Limerick point from free 14  Posn: 8:40
-Half time score: Galway 0-8(8)  Limerick 0-7(7)
-2nd half start: 01:40   08-01-12 Galway v. Limerick
-00mins 2nd half Galway free/pen conceded  12  Posn: 90:42
-00mins 2nd half Limerick point from free 14  Posn: 92:40
-01mins 2nd half Galway own puck/kick out lost    Posn: 65:61
-01mins 2nd half Limerick point from play 13  Posn: 80:16
-01mins 2nd half Galway own puck/kick out won    Posn: 58:71
-01mins 2nd half Galway wide from play 9  Posn: 28:71
-02mins 2nd half Limerick own puck/kick out won    Posn: 16:70
-02mins 2nd half Limerick free/pen conceded    Posn: 50:30
-02mins 2nd half Galway point from play 12  Posn: 74:64
-03mins 2nd half Limerick own puck/kick out lost    Posn: 14:40
-03mins 2nd half Galway free/pen conceded    Posn: 11:43
-03mins 2nd half Galway free/pen conceded    Posn: 61:91
-04mins 2nd half Limerick free/pen conceded    Posn: 57:56
-05mins 2nd half Galway point from free 11  Posn: 53:56
-05mins 2nd half Limerick own puck/kick out lost    Posn: 20:54
-05mins 2nd half Galway free/pen conceded  15  Posn: 22:82
-06mins 2nd half Galway wide from play 11  Posn: 45:54
-06mins 2nd half Limerick own puck/kick out lost    Posn: 90:44
-07mins 2nd half Galway saved out for 45/65  10  Posn: 63:85
-07mins 2nd half Limerick free/pen conceded    Posn: 59:83
-07mins 2nd half Galway point from free 13  Posn: 65:83
-07mins 2nd half Limerick own puck/kick out won    Posn: 12:79
-08mins 2nd half Limerick wide from play 14  Posn: 7:20
-08mins 2nd half Galway own puck/kick out won  12  Posn: 85:25
-09mins 2nd half Galway wide from play 12  Posn: 51:58
-10mins 2nd half Limerick own puck/kick out won    Posn: 10:72
-10mins 2nd half Galway free/pen conceded    Posn: 72:23
-12mins 2nd half Galway own puck/kick out lost    Posn: 13:53
-13mins 2nd half Limerick point from play   Posn: 45:25
-14mins 2nd half Galway own puck/kick out won    Posn: 69:54
-14mins 2nd half Galway goal from play 15  Posn: 32:91
-14mins 2nd half Limerick own puck/kick out lost    Posn: 78:41
-14mins 2nd half Limerick free/pen conceded    Posn: 21:50
-15mins 2nd half Galway wide from free 14  Posn: 49:50
-15mins 2nd half Limerick own puck/kick out won    Posn: 50:63
-16mins 2nd half Galway free/pen conceded    Posn: 51:62
-16mins 2nd half Galway point from free 14  Posn: 53:58
-17mins 2nd half Limerick own puck/kick out lost    Posn: 16:49
-17mins 2nd half Galway free/pen conceded    Posn: 57:60
-19mins 2nd half Limerick free/pen conceded    Posn: 52:76
-19mins 2nd half Galway point from free 14  Posn: 54:74
-19mins 2nd half Limerick own puck/kick out lost    Posn: 17:48
-20mins 2nd half Galway wide from play 5  Posn: 8:63
-20mins 2nd half Limerick own puck/kick out lost    Posn: 49:50
-20mins 2nd half Galway point from play 14  Posn: 48:82
-21mins 2nd half Limerick own puck/kick out won    Posn: 76:80
-23mins 2nd half Galway point from play 11  Posn: 24:82
-23mins 2nd half Limerick own puck/kick out won    Posn: 8:74
-23mins 2nd half Galway free/pen conceded    Posn: 16:45
-24mins 2nd half Galway point from play 13  Posn: 61:80
-24mins 2nd half Limerick own puck/kick out lost    Posn: 45:57
-24mins 2nd half Limerick free/pen conceded    Posn: 61:63
-25mins 2nd half Galway point from free 14  Posn: 70:63
-25mins 2nd half Limerick own puck/kick out won    Posn: 50:73
-25mins 2nd half Galway point from play 11  Posn: 44:49
-25mins 2nd half Limerick own puck/kick out won    Posn: 28:82
-27mins 2nd half Limerick wide from play   Posn: 77:26
-27mins 2nd half Galway own puck/kick out won    Posn: 22:48
-27mins 2nd half Galway point from play 11  Posn: 19:48
-28mins 2nd half Limerick own puck/kick out won    Posn: 89:66
-28mins 2nd half Galway wide from play   Posn: 85:57
-28mins 2nd half Limerick own puck/kick out lost    Posn: 6:69
-28mins 2nd half Galway wide from play 13  Posn: 9:82
-28mins 2nd half Limerick own puck/kick out won    Posn: 33:42
-28mins 2nd half Galway free/pen conceded    Posn: 30:41
-29mins 2nd half Limerick point from free   Posn: 33:41
-29mins 2nd half Galway own puck/kick out won    Posn: 13:48
-29mins 2nd half Galway wide from play 12  Posn: 14:61
-30mins 2nd half Limerick own puck/kick out lost    Posn: 21:49
-30mins 2nd half Galway point from play 10  Posn: 50:56
-30mins 2nd half Limerick own puck/kick out lost    Posn: 30:44
-30mins 2nd half Galway point from play   Posn: 74:57
-31mins 2nd half Limerick own puck/kick out won    Posn: 23:49
-31mins 2nd half Limerick point from play   Posn: 49:40
-31mins 2nd half Galway own puck/kick out won    Posn: 69:61
-31mins 2nd half Galway point from play 12  Posn: 73:58
-Full time score: Galway 1-22(25)  Limerick 0-12(12)
-
-
+1st half start: 11:02   01-06-19 Galway v. Tipperary
+00mins 1st half Galway point from play Oisin (Beg) Flannery  Posn: 51:66
+00mins 1st half Tipperary own puck/kick out lost    Posn: 22:45
+00mins 1st half Galway free/pen conceded  Donal Mannion  Posn: 15:65
+01mins 1st half Tipperary short from free 6  Posn: 17:64
+01mins 1st half Tipperary wide from play 11  Posn: 80:23
+01mins 1st half Galway own puck/kick out lost    Posn: 87:58
+03mins 1st half Galway point from play John Fleming  Posn: 11:91
+03mins 1st half Tipperary own puck/kick out won  15  Posn: 86:78
+04mins 1st half Tipperary point from play 15  Posn: 47:24
+04mins 1st half Galway own puck/kick out won    Posn: 85:25
+05mins 1st half Tipperary wide from play 8  Posn: 22:51
+05mins 1st half Galway own puck/kick out won    Posn: 49:20
+05mins 1st half Tipperary short from play 8  Posn: 48:50
+06mins 1st half Tipperary point from play 15  Posn: 93:35
+06mins 1st half Galway own puck/kick out lost    Posn: 70:65
+06mins 1st half Tipperary point from play 8  Posn: 68:50
+07mins 1st half Galway own puck/kick out lost    Posn: 71:55
+07mins 1st half Tipperary wide from play 10  Posn: 87:28
+07mins 1st half Galway own puck/kick out lost    Posn: 20:54
+08mins 1st half Tipperary free/pen conceded    Posn: 9:77
+09mins 1st half Galway point from free Cillian Lawless  Posn: 12:75
+09mins 1st half Tipperary own puck/kick out won    Posn: 65:57
+09mins 1st half Tipperary wide from play   Posn: 55:54
+09mins 1st half Galway own puck/kick out won    Posn: 15:46
+09mins 1st half Galway free/pen conceded    Posn: 59:33
+10mins 1st half Tipperary point from free   Posn: 58:33
+10mins 1st half Galway own puck/kick out lost    Posn: 51:58
+11mins 1st half Galway point from play Conor Walsh  Posn: 22:76
+12mins 1st half Tipperary own puck/kick out won    Posn: 89:27
+12mins 1st half Tipperary saved from play 10  Posn: 66:10
+12mins 1st half Tipperary goal from play 11  Posn: 42:16
+12mins 1st half Galway own puck/kick out won    Posn: 70:55
+12mins 1st half Galway free/pen conceded  Sean Blehane  Posn: 84:84
+13mins 1st half Tipperary point from play 11  Posn: 26:37
+13mins 1st half Galway own puck/kick out won    Posn: 50:40
+13mins 1st half Galway point from play John Fleming  Posn: 27:81
+13mins 1st half Tipperary own puck/kick out won    Posn: 16:82
+14mins 1st half Tipperary free/pen conceded    Posn: 89:41
+15mins 1st half Tipperary point from play 15  Posn: 80:19
+15mins 1st half Galway own puck/kick out lost    Posn: 95:59
+16mins 1st half Tipperary point from play 15  Posn: 72:19
+16mins 1st half Galway own puck/kick out lost    Posn: 75:57
+16mins 1st half Galway free/pen conceded  Nathan Earner  Posn: 81:59
+17mins 1st half Tipperary point from free 6  Posn: 81:59
+17mins 1st half Galway own puck/kick out won    Posn: 17:48
+18mins 1st half Tipperary wide from play 11  Posn: 64:40
+18mins 1st half Galway own puck/kick out lost    Posn: 90:44
+19mins 1st half Galway goal from play John Fleming  Posn: 54:88
+19mins 1st half Tipperary own puck/kick out won    Posn: 87:78
+20mins 1st half Galway short from play Conor Walsh  Posn: 49:61
+20mins 1st half Tipperary point from play 13  Posn: 47:34
+21mins 1st half Galway own puck/kick out won    Posn: 81:51
+21mins 1st half Galway point from play Conor Walsh  Posn: 77:58
+21mins 1st half Tipperary own puck/kick out won    Posn: 25:61
+22mins 1st half Tipperary point from play 15  Posn: 88:20
+22mins 1st half Galway own puck/kick out won    Posn: 89:26
+23mins 1st half Galway off posts from free Cillian Lawless  Posn: 72:61
+25mins 1st half Galway wide from play Cillian Lawless  Posn: 11:66
+25mins 1st half Tipperary own puck/kick out lost    Posn: 88:35
+25mins 1st half Galway point from play Cillian Lawless  Posn: 29:72
+26mins 1st half Tipperary own puck/kick out won    Posn: 82:78
+29mins 1st half Tipperary free/pen conceded    Posn: 13:49
+29mins 1st half Galway free/pen conceded  Mark Gill  Posn: 53:41
+30mins 1st half Tipperary point from free 14  Posn: 52:40
+30mins 1st half Galway own puck/kick out lost    Posn: 41:60
+30mins 1st half Galway free/pen conceded    Posn: 33:60
+31mins 1st half Tipperary wide from free 6  Posn: 30:61
+Half time score: Galway 1-7(10)  Tipperary 1-11(14)
+2nd half start: 11:41   01-06-19 Galway v. Tipperary
+00mins 2nd half Tipperary free/pen conceded    Posn: 27:94
+01mins 2nd half Galway point from free Cillian Lawless  Posn: 33:82
+02mins 2nd half Tipperary own puck/kick out won    Posn: 17:42
+02mins 2nd half Tipperary point from play 9  Posn: 54:25
+02mins 2nd half Galway own puck/kick out won    Posn: 74:41
+02mins 2nd half Galway point from play Donal Mannion  Posn: 60:76
+03mins 2nd half Tipperary own puck/kick out won    Posn: 81:71
+03mins 2nd half Galway point from play Cillian Lawless  Posn: 28:45
+04mins 2nd half Tipperary own puck/kick out won    Posn: 28:60
+04mins 2nd half Tipperary point from play   Posn: 69:12
+04mins 2nd half Galway own puck/kick out won    Posn: 15:72
+05mins 2nd half Galway point from play Ben Moran  Posn: 39:58
+05mins 2nd half Galway own puck/kick out won    Posn: 80:59
+05mins 2nd half Galway point from play Conor Walsh  Posn: 89:65
+06mins 2nd half Tipperary own puck/kick out lost    Posn: 16:30
+06mins 2nd half Galway free/pen conceded  Conor Walsh  Posn: 52:72
+07mins 2nd half Galway short from play Ben Moran  Posn: 70:61
+07mins 2nd half Tipperary saved out for 45/65    Posn: 29:6
+08mins 2nd half Tipperary point from 45/65 14  Posn: 35:45
+09mins 2nd half Galway own puck/kick out lost    Posn: 76:48
+10mins 2nd half Tipperary point from play   Posn: 85:34
+11mins 2nd half Galway own puck/kick out won    Posn: 75:49
+11mins 2nd half Tipperary free/pen conceded    Posn: 73:50
+12mins 2nd half Galway point from free Cillian Lawless  Posn: 75:51
+12mins 2nd half Tipperary own puck/kick out won    Posn: 13:65
+13mins 2nd half Tipperary free/pen conceded    Posn: 84:55
+13mins 2nd half Galway wide from free Cillian Lawless  Posn: 86:52
+14mins 2nd half Tipperary own puck/kick out lost    Posn: 12:49
+15mins 2nd half Tipperary point from play 11  Posn: 80:28
+16mins 2nd half Galway own puck/kick out won    Posn: 10:28
+16mins 2nd half Tipperary wide from play   Posn: 28:48
+16mins 2nd half Galway own puck/kick out won    Posn: 83:41
+16mins 2nd half Galway free/pen conceded  Karl Conneely  Posn: 57:22
+17mins 2nd half Tipperary point from free 14  Posn: 50:19
+17mins 2nd half Galway own puck/kick out lost    Posn: 23:58
+17mins 2nd half Tipperary free/pen conceded    Posn: 50:19
+18mins 2nd half Tipperary point from play   Posn: 16:37
+19mins 2nd half Galway own puck/kick out lost    Posn: 77:58
+19mins 2nd half Tipperary free/pen conceded    Posn: 52:29
+20mins 2nd half Galway point from free Cillian Lawless  Posn: 72:82
+21mins 2nd half Tipperary own puck/kick out won    Posn: 83:40
+21mins 2nd half Tipperary point from play   Posn: 80:17
+22mins 2nd half Galway goal from play Niall Collins  Posn: 48:84
+22mins 2nd half Tipperary own puck/kick out lost    Posn: 79:40
+22mins 2nd half Tipperary point from play   Posn: 51:35
+23mins 2nd half Galway own puck/kick out lost    Posn: 18:57
+23mins 2nd half Tipperary free/pen conceded    Posn: 73:20
+24mins 2nd half Tipperary free/pen conceded    Posn: 31:75
+24mins 2nd half Galway point from free Cillian Lawless  Posn: 35:73
+25mins 2nd half Tipperary own puck/kick out lost    Posn: 10:36
+26mins 2nd half Tipperary wide from play   Posn: 59:32
+26mins 2nd half Galway own puck/kick out lost    Posn: 83:68
+27mins 2nd half Galway free/pen conceded  Shane Ryan  Posn: 10:33
+27mins 2nd half Tipperary point from free 14  Posn: 10:27
+27mins 2nd half Galway own puck/kick out won    Posn: 79:24
+29mins 2nd half Galway point from free Cillian Lawless  Posn: 45:68
+29mins 2nd half Tipperary free/pen conceded    Posn: 50:67
+29mins 2nd half Tipperary own puck/kick out lost    Posn: 83:49
+30mins 2nd half Tipperary wide from play   Posn: 70:25
+30mins 2nd half Galway own puck/kick out won    Posn: 17:44
+30mins 2nd half Galway wide from play Ronan Glennon  Posn: 16:49
+30mins 2nd half Tipperary own puck/kick out lost    Posn: 82:50
+31mins 2nd half Galway point from play Niall Collins  Posn: 47:73
+31mins 2nd half Tipperary own puck/kick out lost    Posn: 16:42
+31mins 2nd half Tipperary free/pen conceded    Posn: 23:47
+32mins 2nd half Galway wide from free Cillian Lawless  Posn: 28:46
+33mins 2nd half Tipperary own puck/kick out won    Posn: 14:32
+33mins 2nd half Galway free/pen conceded    Posn: 14:31
+33mins 2nd half Tipperary point from free 14  Posn: 17:31
+Full time score: Galway 2-17(23)  Tipperary 1-22(25)

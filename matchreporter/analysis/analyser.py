@@ -69,14 +69,14 @@ def analyse(data):
         possessions = possessionData.pivot_table(index=FORMAT_ROW_PLAYER,
                                  columns=[FORMAT_ROW_TEAM],
                                  values=FORMAT_ROW_TIME,
-                                 aggfunc='count', margins=False, fill_value=0)
+                                 aggfunc='count', margins=True, fill_value=0)
 
     tackles = None
     if tackleData is not None and not tackleData.empty:
         tackles = tackleData.pivot_table(index=FORMAT_ROW_PLAYER,
                                  columns=[FORMAT_ROW_TEAM],
                                  values=FORMAT_ROW_TIME,
-                                 aggfunc='count', margins=False, fill_value=0)
+                                 aggfunc='count', margins=True, fill_value=0)
 
     return Analysis(df,
                     getTeams(df),

@@ -3,6 +3,7 @@ from xml.etree import ElementTree as ET
 
 from matchreporter.constants import FORMAT_ROW_TIME, \
     FORMAT_ROW_HALF, FORMAT_ROW_SECTOR, FORMAT_ROW_EVENT, FORMAT_ROW_TEAM, FORMAT_ROW_LOCATION, FORMAT_ROW_PLAYER
+from matchreporter.helpers.pitchgrid import Grid
 
 from matchreporter.helpers.stringhelper import stripAndConvertTimeToInt
 from matchreporter.helpers.timesector import getTimeSector
@@ -82,14 +83,14 @@ def restructureRows(rows):
                 continue
 
         if (isMatchOn and (firstHalfOn or secondHalfOn)):
-            row = restructureRow(index, row, firstHalfOn, firstHalfStart, secondHalfOn, secondHalfStart)
+            row = restructureRow(row, firstHalfOn, firstHalfStart, secondHalfOn, secondHalfStart)
 
             restructuredRows.append(row)
 
     return restructuredRows
 
 
-def restructureRow(index, row, firstHalfOn, firstHalfStart, secondHalfOn, secondHalfStart):
+def restructureRow(row, firstHalfOn, firstHalfStart, secondHalfOn, secondHalfStart):
     time = getRelativeTime(row, firstHalfOn, firstHalfStart, secondHalfOn, secondHalfStart)
 
     half = getHalf(firstHalfOn, secondHalfOn)
@@ -102,17 +103,17 @@ def restructureRow(index, row, firstHalfOn, firstHalfStart, secondHalfOn, second
 
     player = getPlayer(row)
 
-    location = getLocation(row)
+    rlocation = getReflectedLocation(row, half)
 
-    row = {FORMAT_ROW_TIME: time,
+    newRow = {FORMAT_ROW_TIME: time,
            FORMAT_ROW_HALF: half,
            FORMAT_ROW_SECTOR: sector,
            FORMAT_ROW_TEAM: team,
            FORMAT_ROW_EVENT: event,
            FORMAT_ROW_PLAYER: player,
-           FORMAT_ROW_LOCATION: location}
+           FORMAT_ROW_LOCATION: rlocation}
 
-    return row
+    return newRow
 
 
 def getRelativeTime(row, firstHalfOn, firstHalfStart, secondHalfOn, secondHalfStart):
@@ -151,7 +152,8 @@ def getEvent(row):
     event = row['code']
 
     try:
-        event.join(row['sourceplay'])
+        event = event + ' ' + row['from']
+        event = event.rstrip()
     except KeyError:
         pass
 
@@ -170,3 +172,16 @@ def getLocation(row):
         return row['location']
     except KeyError:
         return None
+
+
+def getReflectedLocation(row, half):
+    if half == 1:
+        return getLocation(row)
+    elif half == 2:
+        location = getLocation(row)
+        if location is not None:
+            rLocation = Grid().getReflectedPitchSector(location)
+            #print(location, rLocation)
+            return rLocation
+    else:
+        return 'UNK'
