@@ -1,0 +1,5 @@
+-gaamatch
+"/Users/rmoyniha/Google Drive/Galway/Gaillimh-U20/2020/matches/laois/stats/laois-stats.txt"
+
+-sc
+"/Users/rmoyniha/Documents/Analysis/Prototype/kk-new-analysis-xml.xml"

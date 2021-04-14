@@ -1,45 +1,39 @@
 from matchreporter.constants import STRING_ZERO
 
 
-def removePrefix(str, prefix):
-    if str.startswith(prefix):
-        return str[len(prefix):]
-    else:
-        return str
+def remove_prefix(prefixed, prefix):
+    if prefixed.startswith(prefix):
+        return prefixed[len(prefix):]
+
+    return prefixed
 
 
-def parseInt(s):
+def parse_int(int_str):
     try:
-        return int(eval(str(removePrefix(s, STRING_ZERO))))
+        return int(eval(str(remove_prefix(int_str, STRING_ZERO))))
     except:
         return 0
 
 
-def stripAndConvertTimeToInt(stringValue):
-    i = 0
-    stopIndex = 0
-
-    if ':' in stringValue:
-        stopIndex = stringValue.find(':')
+def strip_and_convert_time_to_int(string_value):
+    if ':' in string_value:
+        stop_index = string_value.find(':')
     else:
-        stopIndex = stringValue.find('m')
+        stop_index = string_value.find('m')
 
-    return stripAndConvertToInt(stopIndex, stringValue)
+    return strip_and_convert_to_int(stop_index, string_value)
 
 
-def stripAndConvertHalfToInt(stringValue):
-    i = 0
-    stopIndex = 0
-
-    if '1' in stringValue:
-        stopIndex = stringValue.find('s')
+def strip_and_convert_half_to_int(string_value):
+    if '1' in string_value:
+        stop_index = string_value.find('s')
     else:
-        stopIndex = stringValue.find('n')
+        stop_index = string_value.find('n')
 
-    return stripAndConvertToInt(stopIndex, stringValue)
+    return strip_and_convert_to_int(stop_index, string_value)
 
 
-def stripAndConvertToInt(stopIndex, stringValue):
-    subStringValue = stringValue[0:stopIndex]
+def strip_and_convert_to_int(stop_index, string_value):
+    sub_string_value = string_value[0:stop_index]
 
-    return parseInt(subStringValue)
+    return parse_int(sub_string_value)

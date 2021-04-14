@@ -1,8 +1,8 @@
 from setuptools import setup
 
 def readme():
-    with open('README.rst') as f:
-        return f.read()
+    with open('README.rst') as file:
+        return file.read()
 
 setup(name='matchreporter',
       version='0.3',

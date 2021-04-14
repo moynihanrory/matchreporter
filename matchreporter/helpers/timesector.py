@@ -1,5 +1,5 @@
 
-def getTimeSector(time, half):
+def get_time_sector(time, half):
     x = divmod(time, 10)
     bucket = x[0]
 
@@ -8,7 +8,7 @@ def getTimeSector(time, half):
     else:
         sector = bucket
 
-    if half is 2:
+    if half == 2:
         sector = sector + 3
 
     return sector

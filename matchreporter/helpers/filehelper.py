@@ -1,76 +1,49 @@
 import os
 
-from matchreporter.constants import EX_GAAMATCH_OUTPUT_AGG_DATA_FILE, EX_GAAMATCH_OUTPUT_REPORT_FILE, EX_OUTPUT_DIRECTORY, \
-    GAAMATCH_ANALYSIS_REPORT_TEMPLATE, SPORTSCODE_REPORT_TEMPLATE, EX_SPORTSCODE_OUTPUT_AGG_DATA_FILE, \
-    EX_SPORTSCODE_OUTPUT_REPORT_FILE
-from matchreporter.helpers.datetimehelper import getTodaysDate
+from matchreporter.constants import EX_GAAMATCH_OUTPUT_AGG_DATA_FILE, EX_GAAMATCH_OUTPUT_REPORT_FILE, \
+    EX_OUTPUT_DIRECTORY, GAAMATCH_ANALYSIS_REPORT_TEMPLATE
+from matchreporter.helpers.datetimehelper import get_todays_date
 
 
-def readFile(filename, mode='r'):
-    with open(filename, mode) as inputFile:
-        return inputFile.read()
+def read_file(filename, mode='r'):
+    with open(filename, mode) as input_file:
+        return input_file.read()
 
 
-def readTextFileAsLines(filename):
-    return readFile(filename).splitlines()
+def read_text_file_as_lines(filename):
+    return read_file(filename).splitlines()
 
 
-def loadDataFromFile(absoluteFileName):
-    return readTextFileAsLines(absoluteFileName)
+def load_data_from_file(absolute_file_name):
+    return read_text_file_as_lines(absolute_file_name)
 
 
-def createOutputDirectory(directory):
+def create_output_directory(directory):
     if not os.path.isdir(directory):
         os.mkdir(directory)
 
 
-def createFilePath(filename, outputDir):
-    createOutputDirectory(outputDir)
+def create_file_path(filename, output_dir):
+    create_output_directory(output_dir)
 
-    return os.path.join(outputDir, filename)
-
-
-def getGaaMatchOutputExcelFilename(teams):
-    filename = EX_GAAMATCH_OUTPUT_AGG_DATA_FILE.format(teams[0], teams[1], getTodaysDate())
-
-    return filename
+    return os.path.join(output_dir, filename)
 
 
-def getGaaMatchReportExcelFilename(teams):
-    filename = EX_GAAMATCH_OUTPUT_REPORT_FILE.format(teams[0], teams[1], getTodaysDate())
+def get_gaa_match_output_excel_filename(teams):
+    filename = EX_GAAMATCH_OUTPUT_AGG_DATA_FILE.format(teams[0], teams[1], get_todays_date())
 
     return filename
 
 
-def getSportscodeOutputExcelFilename(teams):
-    filename = EX_SPORTSCODE_OUTPUT_AGG_DATA_FILE.format(teams[0], teams[1], getTodaysDate())
-
-    return filename
-
-
-def getSportscodeReportExcelFilename(teams):
-    filename = EX_SPORTSCODE_OUTPUT_REPORT_FILE.format(teams[0], teams[1], getTodaysDate())
-
-    return filename
-
-
-def getOutputDirectoryName(teams):
-    dirName = EX_OUTPUT_DIRECTORY.format(teams[0], teams[1], getTodaysDate())
+def get_output_directory_name(teams):
+    dirName = EX_OUTPUT_DIRECTORY.format(teams[0], teams[1], get_todays_date())
 
     return dirName
 
 
-def getGaaMatchReportTemplateName():
+def get_gaa_match_report_template_name():
     return os.path.join(os.getcwd(), GAAMATCH_ANALYSIS_REPORT_TEMPLATE)
 
 
-def getSportscodeReportTemplateName():
-    return os.path.join(os.getcwd(), SPORTSCODE_REPORT_TEMPLATE)
-
-
-def getGaaMatchAnalysisReportName(outputDirectory):
-    return os.path.join(outputDirectory, EX_GAAMATCH_OUTPUT_REPORT_FILE)
-
-
-def getSportsCodeAnalysisReportName(outputDirectory):
-    return os.path.join(outputDirectory, EX_SPORTSCODE_OUTPUT_REPORT_FILE)
+def get_gaa_match_analysis_report_name(output_directory):
+    return os.path.join(output_directory, EX_GAAMATCH_OUTPUT_REPORT_FILE)

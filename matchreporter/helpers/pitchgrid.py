@@ -1,18 +1,10 @@
 from matchreporter.constants import UNKNOWN_PITCH_SECTOR
-from matchreporter.helpers.stringhelper import parseInt
+from matchreporter.helpers.stringhelper import parse_int
 
 
-class Grid(object):
+class Grid:
     def __init__(self):
-        # self.x = { '1': range(0, 31),
-        #            '2': range(31, 71),
-        #            '3': range(71, 100)}
-        #
-        # self.y = { 'A': range(0, 9),
-        #            'B': range(9, 35),
-        #            'C': range(35, 65),
-        #            'D': range(65, 91),
-        #            'E': range(91, 100)}
+
         self.x = { 'C': range(0, 22),
                    'B': range(22, 78),
                    'A': range(78, 100)}
@@ -24,61 +16,53 @@ class Grid(object):
                    '2': range(68, 85),
                    '1': range(85, 100)}
 
-        self.rx = { 'C': 'A',
-                   'B': 'B',
-                   'A': 'C'}
-
-        self.ry = { '6': '1',
-                   '5': '2',
-                   '4': '3',
-                   '3': '4',
-                   '2': '5',
-                   '1': '6'}
+        self.rx = {'C': 'A', 'B': 'B', 'A': 'C'}
+        self.ry = {'6': '1', '5': '2', '4': '3', '3': '4', '2': '5', '1': '6'}
 
 
-    def _getSector(self, x, y):
+    def _get_sector(self, x, y):
 
-        for xName, xValue in self.x.items():
+        for x_name, x_value in self.x.items():
 
-            if x in xValue:
-                for yName, yValue in self.y.items():
+            if x in x_value:
+                for y_name, y_value in self.y.items():
 
-                    if y in yValue:
-                        return yName + xName
-
-
-    def _getReflectedSector(self, x, y):
-
-        for xName, rxValue in self.rx.items():
-
-            if x.lower() == rxValue.lower():
-                for yName, ryValue in self.ry.items():
-
-                    if y.lower() == ryValue.lower():
-                        return yName.lower() + xName.lower()
+                    if y in y_value:
+                        return y_name + x_name
 
 
-    def getPitchSector(self, coordinates):
+    def _get_reflected_sector(self, x, y):
+
+        for x_name, rx_value in self.rx.items():
+
+            if x.lower() == rx_value.lower():
+                for y_name, ry_value in self.ry.items():
+
+                    if y.lower() == ry_value.lower():
+                        return y_name.lower() + x_name.lower()
+
+
+    def get_pitch_sector(self, coordinates):
         if coordinates is None:
             return UNKNOWN_PITCH_SECTOR
 
-        xValue = parseInt(coordinates[0:coordinates.find(':')])
+        x_value = parse_int(coordinates[0:coordinates.find(':')])
 
-        yValue = parseInt(coordinates[(coordinates.find(':') + 1)::])
+        y_value = parse_int(coordinates[(coordinates.find(':') + 1)::])
 
-        pitchSector = self._getSector(xValue, yValue)
+        pitchSector = self._get_sector(x_value, y_value)
 
         return pitchSector
 
 
-    def getReflectedPitchSector(self, coordinates):
+    def get_reflected_pitch_sector(self, coordinates):
         if coordinates is None:
             return UNKNOWN_PITCH_SECTOR
 
-        xValue = coordinates[0]
+        x_value = coordinates[0]
 
-        yValue = coordinates[1]
+        y_value = coordinates[1]
 
-        pitchSector = self._getReflectedSector(yValue, xValue)
+        pitch_sector = self._get_reflected_sector(y_value, x_value)
 
-        return pitchSector
+        return pitch_sector
