@@ -1,3 +1,4 @@
 xmltodict==0.11.0
 pandas==0.22.0
 setuptools==40.6.2
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
