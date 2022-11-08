@@ -1,6 +1,6 @@
 import pandas as pd
 
-from matchreporter.analysis.play_anayliser import analyise_plays
+from matchreporter.analysis.play_anayliser import analyse_plays
 
 
 class Analysis:
@@ -16,7 +16,7 @@ def analyse(data):
 
     teams = get_teams(data_frame)
 
-    plays = analyise_plays(data)
+    plays = analyse_plays(data)
 
     return Analysis(data_frame, teams, plays)
 

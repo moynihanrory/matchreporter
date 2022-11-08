@@ -11,7 +11,7 @@ REDUCED_ORIGIN = 'reduced_origin'
 REDUCED_OUTCOME = 'reduced_outcome'
 
 
-def analyise_plays(row_list):
+def analyse_plays(row_list):
     play_list = create_playlist(row_list)
 
     data_frame = convert_playlist_to_dataframe(play_list)
